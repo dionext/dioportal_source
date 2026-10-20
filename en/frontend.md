@@ -29,7 +29,7 @@ Next.js is an open-source web development framework created by the private compa
 
 [https://www.youtube.com/watch?v=EbIps-suESk](https://www.youtube.com/watch?v=EbIps-suESk) Spring boot + nextjs starter kit | Auth, Oauth2, Emails, S3 and more. Step by step guide
 
-есть мнение , что Next.js слишком зарекламирован, переусложнен, особенно для статичных сайтов - альтернатива Astro - статический генератор сайтов, ориентированный на производительность. [https://habr.com/ru/articles/746380/](https://habr.com/ru/articles/746380/)
+Some consider Next.js overhyped and overly complex, especially for static sites. Astro is an alternative: a static site generator focused on performance. [https://habr.com/ru/articles/746380/](https://habr.com/ru/articles/746380/)
 
 ## Astro
 
@@ -102,7 +102,7 @@ JHipster is a project generator for Spring Boot web projects. It is a guided wal
 
 [https://www.youtube.com/watch?v=IfyjKCt6YHE](https://www.youtube.com/watch?v=IfyjKCt6YHE) [https://github.com/mraible/jhipster8-demo](https://github.com/mraible/jhipster8-demo) Get Started with JHipster 8 (official)
 
-Critics [https://jpoint.ru/archive/2024/talks/1a8201bdc17b4a40b586fb61aea5710e/](https://jpoint.ru/archive/2024/talks/1a8201bdc17b4a40b586fb61aea5710e/) JHipster: думали, распаковка, оказалось - вскрытие
+Criticism [https://jpoint.ru/archive/2024/talks/1a8201bdc17b4a40b586fb61aea5710e/](https://jpoint.ru/archive/2024/talks/1a8201bdc17b4a40b586fb61aea5710e/) JHipster: we expected an unboxing, but got an autopsy
 
 ## Express.js
 
@@ -147,6 +147,6 @@ Modern browsers will permit a script to connect to a WebSocket address without a
 
 ## References
 
-[https://www.youtube.com/watch?v=-57r5AARRgY](https://www.youtube.com/watch?v=-57r5AARRgY) Будущее фронтендовых приложений. От запросов, к движкам синхронизации / Андрей Ситник / #22
+[https://www.youtube.com/watch?v=-57r5AARRgY](https://www.youtube.com/watch?v=-57r5AARRgY) The future of frontend applications. From queries to synchronization engines / Andrey Sitnik / #22
 
-https://www.youtube.com/watch?v=mmmmllrf3ws # Atomic CSS и Tailwind: отличный стек для масштабируемой вёрстки | Валентин Ульянов #37
+https://www.youtube.com/watch?v=mmmmllrf3ws # Atomic CSS and Tailwind: a great stack for scalable styling | Valentin Ulyanov #37

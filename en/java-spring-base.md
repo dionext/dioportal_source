@@ -217,13 +217,13 @@ The Spring Framework includes several modules that provide a range of services:
 
 ## Initial Spring project creation
 
-Варианты создания нового проекта:
+Ways to create a new project:
 
-* Online конструктор: [https://start.spring.io/](https://start.spring.io/)
+* Online project generator: [https://start.spring.io/](https://start.spring.io/)
 * IntelliJ IDEA Ultimate (File-New-Project...-Spring Initializer).
 * Spring Boot CLI
 
-Рекомендации по структуре директорий и т.п. [https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-structuring-your-code.html](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-structuring-your-code.html)
+Recommendations for directory structure, etc. [https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-structuring-your-code.html](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-structuring-your-code.html)
 
 ## Spring Starters {\#using.build-systems.starters}
 

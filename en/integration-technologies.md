@@ -150,7 +150,7 @@ The antipode of REST is an approach based on remote procedure calls (RPC). The R
 
 GraphQL is an open-source data query and manipulation language for APIs and a query runtime engine. GraphQL enables declarative data fetching where a client can specify exactly what data it needs from an API. Instead of multiple endpoints that return separate data, a GraphQL server exposes a single endpoint and responds with precisely the data a client asked for. Because a GraphQL server can fetch from separate data sources and present the data in a unified graph, it is not tied to any specific database or storage engine. acebook started GraphQL development in 2012 and released it as open source in 2015.In 2018, GraphQL was moved to the newly established GraphQL Foundation, hosted by the non-profit Linux Foundation.
 
-GraphQL же позволяет передать в приложение сразу нужные данные за один запрос, даже если они находятся в нескольких источниках. Благодаря этому технология извлечения данных GraphQL удобнее и практичнее, чем REST.
+GraphQL allows an application to retrieve exactly the data it needs in a single request, even when the data comes from multiple sources. This makes GraphQL data retrieval more convenient and practical than REST.
 
 GraphQL Features:
 

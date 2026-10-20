@@ -31,9 +31,9 @@ kubectl get replicasets
 kubectl get services  
 kubectl get secrets
 
-kubectl get ingress -o wide (дает ingress сервисы )
+kubectl get ingress -o wide (shows ingress services)
 
-kubectl get svc --all-namespaces kubectl get services --all-namespaces (сервисы во всех неймспесах)
+kubectl get svc --all-namespaces kubectl get services --all-namespaces (services in all namespaces)
 
 kubectl get endpoints  
 kubectl get events  

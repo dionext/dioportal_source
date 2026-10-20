@@ -236,7 +236,7 @@ The ELK Stack is a collection of three open-source products - Elasticsearch, Log
 
 ### Versions
 
-Versions: last from 7х - 7.17.22, last from 8х - 8.14.1 Note: download from docker.elastic.co ( needs for [https://github.com/deviantony/docker-elk](https://github.com/deviantony/docker-elk) or [https://community.hetzner.com/tutorials/deploy-elk-stack-with-docker](https://community.hetzner.com/tutorials/deploy-elk-stack-with-docker) ) is blocked for some countries
+Versions: last from 7.x - 7.17.22, last from 8.x - 8.14.1 Note: download from docker.elastic.co ( needs for [https://github.com/deviantony/docker-elk](https://github.com/deviantony/docker-elk) or [https://community.hetzner.com/tutorials/deploy-elk-stack-with-docker](https://community.hetzner.com/tutorials/deploy-elk-stack-with-docker) ) is blocked for some countries
 
 Security is enabled by default since Elasticsearch 8.0, so you will need SSL certificates, and the examples you find online using docker-compose from the Elasticsearch 7.x era will not work. While the Elasticsearch documentation provides an example docker-compose.yml file that includes Elasticsearch and Kibana with certificates, it does not include Filebeat. [https://gigi.nullneuron.net/gigilabs/filebeat-elasticsearch-and-kibana-with-docker-compose/](https://gigi.nullneuron.net/gigilabs/filebeat-elasticsearch-and-kibana-with-docker-compose/)
 
@@ -382,7 +382,7 @@ You can use the filebeat-\*template to include all logs coming from FileBeat. Yo
 
 [https://github.com/deviantony/docker-elk](https://github.com/deviantony/docker-elk)
 
-[https://github.com/barseghyanartur/elk-stack-container-example](https://github.com/barseghyanartur/elk-stack-container-example) 7.16.1 (ветка!)
+[https://github.com/barseghyanartur/elk-stack-container-example](https://github.com/barseghyanartur/elk-stack-container-example) 7.16.1 (branch!)
 
 [https://github.com/sherifabdlnaby/elastdocker.git](https://github.com/sherifabdlnaby/elastdocker.git) \>= 8.0.0
 

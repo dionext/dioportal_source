@@ -179,7 +179,7 @@ npm run build
 
 + maven-resources-plugin
 
-[https://habr.com/ru/articles/735274/](https://habr.com/ru/articles/735274/) сомнительный вариант с разворачиванием собственного сервера React в отдельном контейнере и коммуникации между ними по внутриконтейнерному адресу
+[https://habr.com/ru/articles/735274/](https://habr.com/ru/articles/735274/) A questionable approach: deploying a separate React server in its own container and communicating between the containers via an internal container address
 
 ## References
 

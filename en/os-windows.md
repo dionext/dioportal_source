@@ -17,13 +17,13 @@ SoX is the Swiss Army Knife of sound processing utilities. It can convert audio 
 https://sourceforge.net/projects/sox/ 
 
 ~~~
-# Установка SoX (рекомендуется)
+# Install SoX (recommended)
 choco install sox.portable
 
-# Если возникают проблемы, попробуйте версию 14.4.1
+# If you encounter problems, try version 14.4.1
 choco install sox.portable --version=14.4.1
 
-# Альтернативно - ffmpeg
+# Alternatively - ffmpeg
 choco install ffmpeg
 
 ~~~

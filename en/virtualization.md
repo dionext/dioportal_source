@@ -65,15 +65,15 @@ Many options are available for the created virtual machines: the hypervisor used
 Installation and system requirements [https://pve.proxmox.com/pve-docs/chapter-pve-installation.html](https://pve.proxmox.com/pve-docs/chapter-pve-installation.html)
 
 
-В Proxmox VE выбор между **Create VM** (виртуальная машина) и **Create CT** (контейнер LXC) сводится к компромиссу между изоляцией и производительностью. ==VM использует полноценный гипервизор, а CT делит ядро с хостом, работая как изолированная среда ОС== Сообщество пользователей [Proxmox](https://www.proxmox.com/en/products/proxmox-virtual-environment/features) считает, что **CT** отлично подходит для запуска изолированных служб, баз данных или веб-серверов в Linux ради экономии ресурсов. **VM** нужно выбирать, если требуется строгая безопасность, запуск Windows или поддержка нескольких ядер ОС
+In Proxmox VE, the choice between **Create VM** (virtual machine) and **Create CT** (LXC container) comes down to a trade-off between isolation and performance. ==A VM uses a full hypervisor, while a CT shares the host kernel and runs as an isolated OS environment.== The [Proxmox](https://www.proxmox.com/en/products/proxmox-virtual-environment/features) community considers **CT** a good choice for running isolated services, databases, or web servers on Linux while conserving resources. Choose **VM** when you need strict security, Windows support, or support for multiple OS kernels.
 
-- **local** (`/var/lib/vz`): файловая система ext4 или xfs. Здесь хранят вспомогательные данные: ISO-образы дистрибутивов, конфигурационные файлы, резервные копии (dump) и шаблоны контейнеров (CT Templates).
+- **local** (`/var/lib/vz`): an ext4 or xfs filesystem. Stores supporting data: distribution ISO images, configuration files, backups (dumps), and container templates (CT Templates).
 
-- **local-lvm** (thin pool): блочное устройство. Отведено специально под диски виртуальных машин (qcow2/raw) и диски контейнеров. Работает быстрее благодаря отсутствию накладных расходов файловой системы на каждый файл диска, а также поддерживает динамическое выделение места и создание снимков (snapshots)
+- **local-lvm** (thin pool): block storage dedicated to virtual machine disks (qcow2/raw) and container disks. It is faster because it avoids filesystem overhead for each disk file, and it supports dynamic space allocation and snapshots.
 
 https://github.com/GethosTheWalrus/proxmox-mcp MCP
 
-### Скрипты 
+### Scripts 
 https://community-scripts.org
 https://forum.samohosting.ru/  https://forum.samohosting.ru/c/pve/5  https://samohosting.ru/
 https://forum.samohosting.ru/t/proxmox-ve-community-scripts-aktualnyj-fork-helper-scripts-by-tteck/14
@@ -90,7 +90,7 @@ https://192.168.1.116:9443/
 https://community-scripts.org/scripts/ubuntu
 
 https://community-scripts.org/scripts/openwebui 
-(включает ollama, но она почему-то не установилась. Пришлось настроить подключение к другому контейнеру )
+(Includes Ollama, but for some reason it did not install. I had to configure a connection to another container.)
 http://192.168.1.152:8080/
 
 https://community-scripts.org/scripts/ollama
@@ -123,7 +123,7 @@ http://localhost:9119
 
 ```
 
-## Характеристики
+## Specifications
 ## Other Virtualization Platforms
 
 **OpenVZ**(Open Virtuozzo) is an operating-system-level virtualization technology for Linux. It allows a physical server to run multiple isolated operating system instances, called containers, virtual private servers (VPSs), or virtual environments (VEs). OpenVZ is similar to Solaris Containers and LXC

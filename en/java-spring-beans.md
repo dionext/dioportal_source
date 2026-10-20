@@ -100,7 +100,7 @@ You can use aproach as in example: ( [https://stackoverflow.com/questions/557509
 public class ExFrontendDemoApplication {
 ```
 
-### @Component @Repository, @Service и @Controller
+### @Component @Repository, @Service and @Controller
 
 [https://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in](https://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in)
 

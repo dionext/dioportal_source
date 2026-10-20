@@ -36,7 +36,7 @@ Using SearxNG to stay current and fully open source, Perplexica ensures you alwa
 
 ### Writing 
 
-https://www.youtube.com/watch?v=5wDY0KXGVrM  Заменит ли ИИ писателя? Что могут нейросети, а что не умеют? 
+https://www.youtube.com/watch?v=5wDY0KXGVrM  Will AI replace writers? What can neural networks do, and what are they unable to do? 
 
 ### Video Summarizer
 
@@ -50,11 +50,11 @@ VideoSummarizer currently works best with YouTube videos that have subtitles in 
 https://www.firecrawl.dev/
 Firecrawl is an AI-powered web crawler and web data infrastructure platform developed by Mendable.ai, designed to convert websites into structured data for AI applications. Founded in 2022 by Caleb Peffer, Eric Ciarla, and Nicolas Silberstein Camara, this San Francisco-based platform offers an open-source web crawler and a commercial API service. It provides content in formats like markdown or JSON, handles dynamic web content, and features AI-driven data extraction via natural language prompts or JSON schemas.
 
-Firecrawl — это специализированный API-сервис и open-source инструмент, преобразующий любые веб-сайты в чистые, структурированные данные (Markdown или JSON), готовые для использования в LLM (больших языковых моделях) и RAG-системах. Он автоматически обходит сайты, преодолевает защиты от ботов, обрабатывает динамический контент (JS) и PDF-файлы, упрощая сбор данных. 
+Firecrawl is a specialized API service and open-source tool that converts any website into clean, structured data (Markdown or JSON), ready for use with LLMs (large language models) and RAG systems. It automatically crawls websites, bypasses bot protection, and processes dynamic content (JS) and PDF files, simplifying data collection. 
 
 ## Using for Language Translations and Learning
 
-[https://www.youtube.com/watch?v=J\_Dm5UqRNDs](https://www.youtube.com/watch?v=J_Dm5UqRNDs) Мария Мичурина | Case study как быстро и дешево переводить новости для требовательного заказчика
+[https://www.youtube.com/watch?v=J\_Dm5UqRNDs](https://www.youtube.com/watch?v=J_Dm5UqRNDs) Maria Michurina | Case study: how to translate news quickly and cheaply for a demanding client
 
 [https://smalltalk2.me/](https://smalltalk2.me/) Boost Your Confidence in Spoken English AI-powered simulator to self-practice the IELTS speaking test, job interview and everyday conversational English
 
@@ -67,25 +67,25 @@ https://anki-decks.com/ The #1 AI Flashcards Maker for Students. Generate Anki F
 ## Using for Speech-to-Text and Text-to-Speech
 
 🖐🏼 Handy (https://handy.computer/)
-Это бесплатный open-source сервис для диктовки текста в любое приложение на компе. Зажал горячую клавишу, сказал текст, он сразу появился в Notion, телеге, браузере, Google Docs — в любом месте куда можно вставить текст. Работает локально на базе Whisper, поэтому фбр меня не прослушивает)   https://github.com/cjpais/Handy 
+This is a free, open-source service for dictating text into any application on your computer. Hold a hotkey, say something, and the text immediately appears in Notion, Telegram, your browser, Google Docs, or anywhere else you can paste text. It runs locally using Whisper, so the FBI is not listening in on me :)   https://github.com/cjpais/Handy 
 
 Recomended model: Parakeet V3
 
-- нет возможности транскрибировать файлы  
+- Cannot transcribe files  
 
 
 LocalText2Voice
-https://www.youtube.com/watch?v=mOhEeRcX5k0  # LocalText2Voice - создаем аудиокниги и подкасты через ИИ. Бесплатно, локально. Установка + Обзор
-LocalText2Voice — бесплатное приложение с открытым исходным кодом для Windows для создания длинных аудиокниг и подкастов. Приложение управляет всем процессом: разбивает большие тексты на сегменты, назначает разные голоса персонажам, позволяет прослушивать и перегенерировать отдельные фрагменты, добавлять фоновую музыку, выполнять сведение и экспортировать готовый результат.
+https://www.youtube.com/watch?v=mOhEeRcX5k0  # LocalText2Voice - creating audiobooks and podcasts with AI. Free and local. Installation + Overview
+LocalText2Voice is a free, open-source Windows application for creating long audiobooks and podcasts. It manages the entire process: splitting large texts into segments, assigning different voices to characters, letting you listen to and regenerate individual sections, adding background music, mixing, and exporting the finished result.
 
 ⏺HypeScribe (https://www.hypescribe.com/ru)
-Может вытаскивать текст по ссылкам из любой соцсети: YouTube, VK, Rutube, запретграм и других. Плюс умеет подключаться к Zoom, Google Meet и Teams, делать саммари и отвечать на вопросы по транскрипту.
+It can extract text from links to any social platform: YouTube, VK, Rutube, Instagram, and others. It can also connect to Zoom, Google Meet, and Teams, create summaries, and answer questions about transcripts.
 
 🔍 NotebookLM (https://notebooklm.google.com/)
-Делает очень точные саммари из Youtube видео и любых файлов, но не может вытягивать текст из других соцсетей. Зато, можно задавать нейронке любые вопросы по теме видео а потом еще сделать инфографику, презу, чек-лист, подкаст на очень хорошем уровне на русском.
+It produces very accurate summaries of YouTube videos and any files, but cannot extract text from other social platforms. However, you can ask the AI any questions about the video and then create high-quality infographics, presentations, checklists, and podcasts in Russian.
 
 💻 MacWhisper (https://www.macwhisper.net/)
-Тоже локальный сервис с бесплатным функционалом, который я использую для расшифровки больших видео и аудиофайлов на компе. Например, записал видео на 50 минут — закинул — получил подробный и точный транскрипт. 
+Another local service with free features that I use to transcribe large video and audio files on my computer. For example, record a 50-minute video, upload it, and get a detailed, accurate transcript. 
 
 
 https://transcribetext.com/  Lightning-fast AI transcription service for all your audio and video needs.
@@ -121,7 +121,7 @@ https://www.youtube.com/watch?v=\_diVy9VdT5s{#id47} How to Build Free Voice AI A
 
 [https://vobox.io/](https://vobox.io/) Natural Text to Speech \& AI Voice Generator Professional voiceovers for your videos and presentations are made possible by VOBOX's extensive range of natural-sounding AI voices in 125+ languages.
 
-[https://www.youtube.com/watch?v=yFO1PJ0NEFk](https://www.youtube.com/watch?v=yFO1PJ0NEFk) Нейросеть превращает аудио в текст. Бесплатно!
+[https://www.youtube.com/watch?v=yFO1PJ0NEFk](https://www.youtube.com/watch?v=yFO1PJ0NEFk) A neural network turns audio into text. For free!
 
 [https://sonix.ai/](https://sonix.ai/) Automated transcription in 53+ languages. Fast, accurate, and affordable. [https://www.youtube.com/watch?v=VGcLFZ2zwp8](https://www.youtube.com/watch?v=VGcLFZ2zwp8)
 
@@ -131,7 +131,7 @@ https://www.youtube.com/watch?v=\_diVy9VdT5s{#id47} How to Build Free Voice AI A
 
 [https://vapi.ai/](https://vapi.ai/) Voice AI for developers Vapi lets developers build, test and deploy voice agents in minutes rather than months.
 
-[https://elevenlabs.io/](https://elevenlabs.io/) ElevenLabs: Free Text to Speech \& AI Voice Generator ElevenLabs https://elevenlabs.io · Перевести эту страницу Create the most realistic speech with our AI audio tools in 1000s of voices and 32 languages. Easy to use APIs and SDKs.
+[https://elevenlabs.io/](https://elevenlabs.io/) ElevenLabs: Free Text to Speech \& AI Voice Generator ElevenLabs https://elevenlabs.io · Translate this page. Create the most realistic speech with our AI audio tools in 1000s of voices and 32 languages. Easy to use APIs and SDKs.
 
 [https://deepgram.com/](https://deepgram.com/) The Voice AI platform for developers Deepgram's voice AI platform provides APIs for speech-to-text, text-to-speech, and full speech-to-speech voice agents. Over 200,000+ developers use Deepgram to build voice AI products and features. (Price ~ $0.0048/min)
 
@@ -181,10 +181,10 @@ docker run -d -p 9000:9000 -e ASR\_MODEL=base -e ASR\_ENGINE=openai\_whisper one
 
 2b9aedf1fd80 keen\_wiles 0.29% 801.7MiB / 3.82GiB 20.49%
 
-* base очень маленькая, но дает плохой результат  
-* medium больше, но не дает идеальный результат 
-* large-v3-turbo дает существенно лучший результат распознавания , чем medium, хотя не намного её больше	https://huggingface.co/openai/whisper-large-v3-turbo   
-* large - не проверял, но судя по сайту, она сильно больше размером
+* base is very small, but gives poor results  
+* medium is larger, but does not give perfect results 
+* large-v3-turbo gives substantially better recognition results than medium, although it is not much larger. https://huggingface.co/openai/whisper-large-v3-turbo   
+* large - I have not tested it, but according to the website, it is much larger.
 
 
 #### WhisperX {\#whisperx}
@@ -208,7 +208,7 @@ docker run -d -p 9000:9000 -e ASR\_MODEL=base -e ASR\_ENGINE=openai\_whisper one
 #### WhisperDesktop
 
 https://github.com/Const-me/Whisper 
-Не удалось заставить работать (возможно из-за отсутствия GPU)
+I could not get it to work (possibly because there was no GPU).
 #### Other Ports
 
 [https://github.com/Const-me/Whisper](https://github.com/Const-me/Whisper) This project is a Windows port of the whisper.cpp implementation. + models [https://huggingface.co/ggerganov/whisper.cpp](https://huggingface.co/ggerganov/whisper.cpp)
@@ -223,7 +223,7 @@ https://github.com/chidiwilliams/buzz  Transcribe and translate audio offline on
 
 ## Using for Internet Content Generation
 
-https://www.youtube.com/watch?v=kS1qus2i8mo # Claude Design — полный обзор и гайд. Заменит ли ИИ дизайнеров? https://claude.ai/design 
+https://www.youtube.com/watch?v=kS1qus2i8mo # Claude Design - a complete overview and guide. Will AI replace designers? https://claude.ai/design 
 
 [https://websim.ai/](https://websim.ai/) sites constructor [https://www.youtube.com/watch?v=ydWT4nqgJcY](https://www.youtube.com/watch?v=ydWT4nqgJcY)
 
@@ -233,9 +233,9 @@ https://www.youtube.com/watch?v=kS1qus2i8mo # Claude Design — полный о�
 
 [https://rytr.me/](https://rytr.me/) Rytr's AI generates original and compelling content that sounds like you, not a robot.
 
-[https://www.youtube.com/watch?v=KS4jWCm0VfI](https://www.youtube.com/watch?v=KS4jWCm0VfI) Нейросети для создания контента: БЕСПЛАТНЫЕ И СУПЕР УДОБНЫЕ
+[https://www.youtube.com/watch?v=KS4jWCm0VfI](https://www.youtube.com/watch?v=KS4jWCm0VfI) Neural networks for content creation: FREE AND SUPER CONVENIENT
 
-[https://www.youtube.com/watch?v=Xx86hL0P83Q](https://www.youtube.com/watch?v=Xx86hL0P83Q) AI БЛОГЕР от А до Я: РУКОВОДСТВО ПО СОЗДАНИЮ И МОНЕТИЗАЦИИ
+[https://www.youtube.com/watch?v=Xx86hL0P83Q](https://www.youtube.com/watch?v=Xx86hL0P83Q) AI BLOGGER from A to Z: A GUIDE TO CREATION AND MONETIZATION
 
 [https://app.gravitywrite.com/](https://app.gravitywrite.com/) [https://app.gravitywrite.com/pricing](https://app.gravitywrite.com/pricing) Free Get - 1,000 Words/mo $19/Month - Get 75,000 Words/mo [https://www.youtube.com/watch?v=eaivzIPKhqg](https://www.youtube.com/watch?v=eaivzIPKhqg) How To Create Blog Using AI | Complete Blogging Tutorial
 
@@ -247,19 +247,19 @@ https://www.youtube.com/watch?v=z7zU_tU3m-g (ru) Revolution in the world of cont
 
 https://consensus.app/ Consensus is the AI-powered academic search engine Search & analyze200M+ peerreviewed research papers
 
-[https://www.youtube.com/watch?v=CMizH-0uJRw](https://www.youtube.com/watch?v=CMizH-0uJRw) AI mindset \[knowledge\]: Итоги 8 недель лаборатории управления знаниями с Obsidian и AI рекомендуют How to Take Smart Notes (Sönke Ahrens)
+[https://www.youtube.com/watch?v=CMizH-0uJRw](https://www.youtube.com/watch?v=CMizH-0uJRw) AI Mindset \[knowledge\]: results of an 8-week knowledge management lab with Obsidian and AI; recommends How to Take Smart Notes (Sönke Ahrens)
 
-[https://www.youtube.com/watch?v=T2aYngze9Ko](https://www.youtube.com/watch?v=T2aYngze9Ko) Промпты для Ученых в ChatGPT: Как Использовать ИИ для Научных Исследований?
+[https://www.youtube.com/watch?v=T2aYngze9Ko](https://www.youtube.com/watch?v=T2aYngze9Ko) ChatGPT prompts for scientists: how to use AI for scientific research?
 
-[https://www.youtube.com/watch?v=sUJMAx\_dfR4](https://www.youtube.com/watch?v=sUJMAx_dfR4) Умная Таблица = 100 Задач за 5 секунд! (работа с excel ТАБЛИЦАМИ)
+[https://www.youtube.com/watch?v=sUJMAx\_dfR4](https://www.youtube.com/watch?v=sUJMAx_dfR4) Smart Spreadsheet = 100 Tasks in 5 Seconds! (working with Excel spreadsheets)
 
-[https://www.youtube.com/watch?v=K0HquGPI55A](https://www.youtube.com/watch?v=K0HquGPI55A) Написание научных работ с помощью нейросетей: Повышаем качество и эффективность | Наталья Киреева
+[https://www.youtube.com/watch?v=K0HquGPI55A](https://www.youtube.com/watch?v=K0HquGPI55A) Writing scientific papers with neural networks: improving quality and efficiency | Natalia Kireeva
 
 ### Lazy AI (lazy.so)
 
-(есть с похожим названием но другой софт [https://www.getlazy.ai](https://www.getlazy.ai) )
+(There is other software with a similar name [https://www.getlazy.ai](https://www.getlazy.ai))
 
-идея чем-то сходная с Zotero
+The idea is somewhat similar to Zotero.
 
 [https://lazy.so/](https://lazy.so/)
 
@@ -317,7 +317,7 @@ Free $0
 - Standard icons
 - Napkin branding on visuals
 
-картинки можно экспортировать, но на бесплатном тарифе с лого 
+Images can be exported, but the free plan adds a logo. 
 
 ## Using for Everyday Life
 
@@ -327,9 +327,9 @@ Free $0
 
 VAPI ($10 free credits): [https://vapi.ai/?via=sanava](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjJkQk1NVnF2R0RySUpPZ2s1djJYSXNaODRGZ3xBQ3Jtc0trNG9hNWFxYTFxYWJDNlVhdmw0Tnl2cUg0RkNuSjBFLWREblU1UEhvcjRJeWIxaGRsaTF3VE5aT1R4ZElPT0llWk1hWFYxVU5ZeWgwZWhPQlNRRmhMbzQzWWdSSHU5aHZZeWl4Wjlhc2xJTVFRX243cw&q=https%3A%2F%2Fvapi.ai%2F%3Fvia%3Dsanava&v=_diVy9VdT5s) Retell AI (60 free call mins): [https://dashboard.retellai.com//?ref=...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0pKQ04xZUdVR0lXcWo0SV83OEIzTkxiZERMd3xBQ3Jtc0tuTFljbzFxODFnQWpKalJJTXhxZVE1dkxHWjVHM09CMjBmSXNDcjdYOVA4THN0a21mMk5lVm91MTRKUTdVSG9qR2tuZzNDZzdRdGRMUmJHcnpsdWMwZExjZ1oxWmdlUW4xQ0pMLXFsemVSQzZ0MTF2TQ&q=https%3A%2F%2Fdashboard.retellai.com%2F%2F%3Fref%3Dsanava&v=_diVy9VdT5s) LiveKit: [https://livekit.io/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTVHMW5nZnMzclRwVFFGQ3lDZEdwU1ItOUgyZ3xBQ3Jtc0ttWmp6aHh5UFZwTWUyeGJpZFJkNTdNQjRlTDRRd3AzVDVUS2tRQ1ZPTmdHNUtsSFdFMG5xLWxtQzFyRDN6MGt5ZTZoOU5uX0htY3F1a2U5czNNVnRwYWFSbzNmVTI5SF9UcWgwb2VoSUJBanVWZ1BuNA&q=https%3A%2F%2Flivekit.io%2F&v=_diVy9VdT5s) FREE RESOURCES : [https://sanava-ai.com/resource-hub/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVVHZ0p0UTlZZTIyME1TamhMN05FUF9SbVNoZ3xBQ3Jtc0treGVfVDZPdXBXYzdOSDZrV3NVY2JRaFU0SzRQd0UzZU9TOEt3eHZTVEYtRHQwRnZ5aWo4X3daMk44a3hWYWxXWUxlQTJNODJqMF9UMEMyeUFUZzJXODYzR2RhMDMxUURVRG1xSmdWSDdoU0I5RzRFZw&q=https%3A%2F%2Fsanava-ai.com%2Fresource-hub%2F&v=_diVy9VdT5s)
 
-[https://github.com/ilyhalight/voice-over-translation](https://github.com/ilyhalight/voice-over-translation) About Небольшое расширение, которое добавляет закадровый перевод видео из YaBrowser в другие браузеры
+[https://github.com/ilyhalight/voice-over-translation](https://github.com/ilyhalight/voice-over-translation) About: a small extension that brings Yandex Browser's video voice-over translation to other browsers
 
-[https://www.youtube.com/watch?v=vnunc-wYzec](https://www.youtube.com/watch?v=vnunc-wYzec) 5 лучших ИИ РАСШИРЕНИЙ для БРАУЗЕРА, которые УСКОРЯЮТ работу
+[https://www.youtube.com/watch?v=vnunc-wYzec](https://www.youtube.com/watch?v=vnunc-wYzec) The 5 best AI browser extensions to SPEED UP your work
 
 ## Using for Tourism
 
@@ -381,10 +381,10 @@ https://deepmind.google.com/science/alphagenome/ This API provides access to Alp
 
 https://storage.googleapis.com/deepmind-media/papers/alphagenome.pdf 
 
-https://www.youtube.com/watch?v=ucELhG0kOkw (ru) Founder OS #23 – от стопки анализов к AI-дашборду: как построить персональную систему здоровья с LLM
+https://www.youtube.com/watch?v=ucELhG0kOkw (ru) Founder OS #23 - from a stack of lab results to an AI dashboard: how to build a personal health system with LLMs
 ## Other Uses
 
-[https://www.youtube.com/watch?v=slfC9um1qdk](https://www.youtube.com/watch?v=slfC9um1qdk) RAG. Делаем вопросно-ответную систему с поиском по базе видеороликов [https://github.com/trashchenkov/gigachat\_tutorials/blob/main/RAG\_по\_видеороликам.ipynb](https://github.com/trashchenkov/gigachat_tutorials/blob/main/RAG_по_видеороликам.ipynb) все его репозитории [https://github.com/trashchenkov/gigachat\_tutorials](https://github.com/trashchenkov/gigachat_tutorials) есть пример и для статей
+[https://www.youtube.com/watch?v=slfC9um1qdk](https://www.youtube.com/watch?v=slfC9um1qdk) RAG. Building a question-answering system that searches a video database [Video RAG notebook](https://github.com/trashchenkov/gigachat_tutorials/blob/main/RAG_по_видеороликам.ipynb) all of the author's repositories [https://github.com/trashchenkov/gigachat\_tutorials](https://github.com/trashchenkov/gigachat_tutorials) an example for articles is also available
 
 [https://secondnature.ai/](https://secondnature.ai/) Customer-facing teams sell better after AI training with us! Use AI life-like sales training to role play any conversation. Boost sales, enhance training effectiveness, and increase productivity.
 

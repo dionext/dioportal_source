@@ -137,9 +137,9 @@ AI voice models and products powering millions of developers, creators, and ente
 ## Video
 
 https://www.youtube.com/watch?v=SZB4W9SDx9M   
-Вам Больше Не Придётся МОНТИРОВАТЬ! Проверил ИИ Агента в DaVinci
+You will no longer have to EDIT VIDEOS! Testing an AI agent in DaVinci
 
-https://www.youtube.com/watch?v=YWRwlfcW_qc # Видео в нейросетях БЕСПЛАТНО | MiniMax H3 на 8GB VRAM! FreeVideo: установка и тест
+https://www.youtube.com/watch?v=YWRwlfcW_qc # FREE AI video generation | MiniMax H3 on 8 GB VRAM! FreeVideo: installation and testing
 
 [https://klingai.com/](https://klingai.com/)
 
@@ -153,9 +153,9 @@ https://www.genspark.ai/clip_genius
 https://doitong.com/  The AI Content Fabric Building the Future of Media, Node by Node. Orchestrate 30+ AI models in one visual interface. From simple generations to complex automated pipelines. https://www.youtube.com/watch?v=00Euna29SXY (ru)  
 Doitong is an AI video maker that creates short-form content for TikTok, Instagram Reels, and YouTube Shorts. It converts text into animated clips, transforms static images into dynamic videos, and generates lifelike voiceovers in 32 languages to help content creators, marketers, and educators produce professional social media videos without editing skills.
 
-https://www.youtube.com/watch?v=dNfhebs-byI # Монтаж никогда не будет прежним. Как создавать любые 2D видео в Gemini БЕСПЛАТНО 🔥Показываю, как создавать бесплатные 2D-анимации, интерфейсы и футажи любой длительности с помощью нейросети Gemini и сервиса VidTSX без навыков монтажа и программирования.
+https://www.youtube.com/watch?v=dNfhebs-byI # Video editing will never be the same. How to create any 2D videos in Gemini FOR FREE. Learn how to create free 2D animations, interfaces, and footage of any length using Gemini and VidTSX, without video editing or programming skills.
 
-https://www.youtube.com/watch?v=_xSGo7cEyEs # Как я делаю ДЛИННЫЕ видео в Grok за 0₽? [ГАЙД 2026]
+https://www.youtube.com/watch?v=_xSGo7cEyEs # How do I make LONG videos in Grok for 0 rubles? [GUIDE 2026]
 
 https://pika.art/ Pika is the AI creative platform you’ve been waiting for. Comprehensive. Simple. With outputs that meet your standards.
 ### Remotion 

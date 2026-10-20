@@ -14,7 +14,7 @@ aliases:
 
 https://ollama.com/library/mistral 
 mistral:7b  4.4GB   32K    Text
-(не подходит для Hermes)
+(not suitable for Hermes)
 
 https://ollama.com/library/gemma4:12b
 gemma4:12b  7.6GB 256K Text, Image
@@ -27,12 +27,12 @@ ollama run gemma4:12b
 
 [https://github.com/ollama/ollama/blob/main/README.md](https://github.com/ollama/ollama/blob/main/README.md)
 
-список моделей [https://ollama.com/library](https://ollama.com/library)
+Model list [https://ollama.com/library](https://ollama.com/library)
 
-ссылка на страницу с мультимодальной моделью:  
+Link to the page for a multimodal model:  
 [https://ollama.com/library/llava](https://ollama.com/library/llava)
 
-рекомендуют GUI [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui)
+Recommended GUI [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui)
 
 ### Ollama's raw mode
 
@@ -51,21 +51,21 @@ When to Use It
 
 - **Function Calling:** Useful for running specific model features—like with Mistral 0.3—that require custom raw text formatting.
 
-### Инсталляция Windows
+### Windows installation
 
-одной командой для виндовс:
+With a single command on Windows:
 
 https://ollama.com/download/OllamaSetup.exe
 
-установка веб-интерфейса open-webui: источник https://github.com/open-webui/open-webui  
-Запуск open-webui: перейти в папку open-webui/backend и запустить файл start\_windows.bat  
-перейти в браузер и ввести localhost:8080  
+Installing the open-webui web interface: source https://github.com/open-webui/open-webui  
+Starting open-webui: go to the open-webui/backend folder and run start\_windows.bat  
+Open a browser and enter localhost:8080  
 https://docs.openwebui.com/getting-started/#alternative-installation-methods  
-замечания:  
-Во время первого входа попадете на страницу регистрации. Перейти на создание  
-нового пользователя и ввести любые можно фейковые данные
+Notes:  
+On your first visit, you will see the registration page. Create a  
+new user and enter any details; made-up details are fine.
 
-У кого проблемы со свободным местом для ollama на диске С - нужно задать переменную окружения OLLAMA\_MODELS=путь\\до\\папки. Должно сработать и для другого диска. Туда будут сохранены все загруженные модели, которые и выедают место
+If you are running out of space for Ollama on drive C, set the environment variable OLLAMA\_MODELS=path\\to\\folder. This should work for other drives as well. All downloaded models, which take up the disk space, will be saved there.
 
 OLLAMA\_MODELS=D:\\Soft\\AI\\ollama\\models  
 Where are models stored?
@@ -79,7 +79,7 @@ Where are models stored?
    * Variable Value: 0.0.0.0
 2. Create a new variable for OLLAMA\_ORIGINS with value "\*"
 
-Настройка для входа из сети
+Configuring access from the network
 
 Ollama binds 127.0.0.1 port 11434 by default. Change the bind address with the OLLAMA\_HOST environment variable.
 
@@ -87,15 +87,15 @@ Ollama allows cross-origin requests from 127.0.0.1 and 0.0.0.0 by default. Addit
 
 OLLAMA\_HOST=0.0.0.0
 
-тоже в виде команды
+Also available as a command
 
 OLLAMA\_HOST="0.0.0.0" ollama serve
 
-Проверка
+Verification
 
 \[curl http://192.168.1.75:11434/api/generate -d '{ "model": "mistral", "prompt": "What is water made of?" }'\](../../../../dio\_documents/other/curl%20http:/192.168.1.75:11434/api/generate%20-d%20'{%20%22model%22:%20%22mistral%22,%20%22prompt%22:%20%22What%20is%20water%20made%20of?" }')
 
-### Команды
+### Commands
 
 pulling model:
 
@@ -116,11 +116,11 @@ ollama ps
 
 ## [
 
-](https://www.youtube.com/ "Главная страница YouTube")SE
+](https://www.youtube.com/ "YouTube home page")SE
 
 [
 
-](https://www.youtube.com/ "Главная страница YouTube")
+](https://www.youtube.com/ "YouTube home page")
 
 ### ComfyUI
 
@@ -128,7 +128,7 @@ ComfyUI https://www.comfy.org/ Crafting the next frontier of  visual and audio m
 We maintain ComfyUI and supporting tools like ComfyUI Manager, custom node registry, frontend, cli, automated CI/CD, and public documentation. https://www.runcomfy.com/ru 
 
 https://www.youtube.com/watch?v=-R0q_NJWDmI SE
-ComfyUI без боли: бесплатные AI-видео на своём ПК с помощью Codex и Minimax H3 
+ComfyUI without the pain: free AI videos on your PC with Codex and Minimax H3 
 ## Other tools
 
 [https://jan.ai/](https://jan.ai/) Chat with AI without privacy concerns Jan is an open source ChatGPT-alternative that runs 100% offline.
@@ -140,7 +140,7 @@ https://pinokio.computer/ Install, Run & Control Databases on Your Computer with
 
 ## Economy, efficiency calculations
 
-[https://www.youtube.com/watch?v=XAPoBtIMhQY](https://www.youtube.com/watch?v=XAPoBtIMhQY) Экономика LLM: что надо и сколько стоит использование больших языковых моделей
+[https://www.youtube.com/watch?v=XAPoBtIMhQY](https://www.youtube.com/watch?v=XAPoBtIMhQY) LLM economics: what you need and how much large language models cost to use
 
 • Renting a server is a high entry threshold
 
@@ -176,6 +176,6 @@ Recommendation for cheap hardware for home llm - nvidia gtx 3060 12gb or 4060ti 
 
 RTX 3090 24 GB 1500$-3000$  
 Before buying this or that equipment, I recommend testing your specific tasks in different GPU configurations on immers.cloud. They have H100, RTX 4090, RTX 3090, RTX 3080, Tesla A100, RTX A5000, Tesla A10, Tesla A2, RTX 2080 Ti, Tesla T4, Tesla V100.  
-Extenders - When there are 4 PCIE slots, PCIEх16 gen4 gen3 risers will help to install 4 cards. They come in 20, 30, 40 cm lengths. There is also 60 cm - Lian Li 600 mm PCI-e 4.0 (PW-PCI-4-60X).  
+Extenders - When there are 4 PCIE slots, PCIEx16 gen4 gen3 risers will help to install 4 cards. They come in 20, 30, 40 cm lengths. There is also 60 cm - Lian Li 600 mm PCI-e 4.0 (PW-PCI-4-60X).  
 llama.cpp will allow you to place some of the weights in the GPU and some in RAM, this makes sense if the RAM is slightly lacking, and the quantization is already on the verge of reducing quality, I ran codestral 22b with 5bit quantization on 16gb, specifying 48 of 57 layers on the gpu with the following speeds:  
 RTX 4070 16G is not a very profitable option economically. RTX 4060 Ti 16G on local models is almost the same in inference speed, especially if the model does not fit into the memory entirely and only partial GPU Offload is used (and this is exactly what happens on 70+ models), with a price difference of more than one and a half times.

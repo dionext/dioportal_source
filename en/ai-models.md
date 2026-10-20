@@ -38,7 +38,7 @@ H2o [https://gpt.h2o.ai/](https://gpt.h2o.ai/)
 chatarena [https://chat.lmsys.org/?arena](https://chat.lmsys.org/?arena)
 
 
-https://www.youtube.com/watch?v=OMXJIIrvfVE # Локальные LLM для кодинга на слабом ПК: что реально работает
+https://www.youtube.com/watch?v=OMXJIIrvfVE # Local LLMs for coding on a low-end PC: what actually works
 ## OpenAI. ChatGPT
 
 [https://openai.com/chatgpt/pricing/](https://openai.com/chatgpt/pricing/)
@@ -90,7 +90,7 @@ With NotebookLM, you get 100 notebooks, each with up to 50 sources (up to 500K w
 
 ### Google LABs
 
-[https://www.youtube.com/watch?v=dTyzE9GmK\_Y](https://www.youtube.com/watch?v=dTyzE9GmK_Y) Экспериментальные проекты ИИ от Google, попробуйте бесплатно, пока они не исчезли... Смотрите здесь: [https://labs.google/experiments](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjBfbFJyNGltS2xZRjliS2F5NmZIX2pzVGhPd3xBQ3Jtc0tsTGlyUkdNQUVOQzJkQmUybXpYRXp4STg2WHdsQUo5RVJ0RzkwVkJqalgxRXJIVTdtc3dnRjNjWko4Y3pQTEloSER5b0M5elFZOEFja2xjbTVSTUs5UWx3bzFVUVRwckZkeVpfTnRJRXR6MDJGa2F3MA&q=https%3A%2F%2Flabs.google%2Fexperiments&v=dTyzE9GmK_Y)
+[https://www.youtube.com/watch?v=dTyzE9GmK\_Y](https://www.youtube.com/watch?v=dTyzE9GmK_Y) Experimental AI projects from Google: try them for free before they disappear... See here: [https://labs.google/experiments](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjBfbFJyNGltS2xZRjliS2F5NmZIX2pzVGhPd3xBQ3Jtc0tsTGlyUkdNQUVOQzJkQmUybXpYRXp4STg2WHdsQUo5RVJ0RzkwVkJqalgxRXJIVTdtc3dnRjNjWko4Y3pQTEloSER5b0M5elFZOEFja2xjbTVSTUs5UWx3bzFVUVRwckZkeVpfTnRJRXR6MDJGa2F3MA&q=https%3A%2F%2Flabs.google%2Fexperiments&v=dTyzE9GmK_Y)
 
 ### Gemini Code Assist (Google)
 
@@ -181,23 +181,23 @@ https://mimo.xiaomi.com/
 https://www.youtube.com/watch?v=Sbkfm3xOeDE
 
 https://platform.xiaomimimo.com/console/profile
-**Прямая оплата:** Российской картой **UnionPay** (как и картами «Мир», Visa или Mastercard, выпущенными в РФ) оплатить сервис **Xiaomi MiMo** напрямую **нельзя** из-за ограничений и санкций. 
+**Direct payment:** You **cannot** pay for **Xiaomi MiMo** directly with a Russian-issued **UnionPay** card (or with Mir, Visa, or Mastercard cards issued in Russia) due to restrictions and sanctions. 
 
-MiMo нейросеть берёт не столько бенчмарками, сколько ценой за токен. Если положить ценники за миллион токенов рядом, картина такая:
+MiMo stands out less for its benchmarks than for its price per token. Comparing prices per million tokens gives the following picture:
 
-- MiMo V2-Pro - около $1 и $3 за млн токенов (вход и выход), V2.5 после снижения ещё дешевле.
+- MiMo V2-Pro: about $1 for input and $3 for output per million tokens; V2.5 is even cheaper after the price reduction.
     
-- DeepSeek - сопоставимо, та же «дешёвая лига».
+- DeepSeek: comparable pricing, in the same budget category.
     
-- Claude и ChatGPT в премиум-моделях - в несколько раз дороже за млн токенов.
+- Claude and ChatGPT premium models: several times more expensive per million tokens.
     
-- Gemini - середина по цене.
+- Gemini: in the middle of the price range.
     
 
-По открытым тестам MiMo-V2.5 держится рядом с DeepSeek и подбирается к Gemini, оставаясь дешевле в эксплуатации. Поэтому MiMo нейросеть и называют «Opus для экономных»: на массовой генерации, парсинге и агентских задачах экономия на дистанции огромная. Где MiMo пока проигрывает - это экосистема: у ChatGPT и Gemini больше готовых интеграций и приложений из коробки.
+According to public tests, MiMo-V2.5 performs close to DeepSeek and is approaching Gemini while remaining cheaper to run. This is why MiMo is called "Opus on a budget": the long-term savings on bulk generation, parsing, and agent tasks are substantial. MiMo still lags behind in its ecosystem: ChatGPT and Gemini have more ready-made integrations and applications out of the box.
 ### Others
 
-[https://www.youtube.com/watch?v=Ci8Eprr2Gok](https://www.youtube.com/watch?v=Ci8Eprr2Gok) (ru) [05:00](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=300s) - обзор Qwen от Alibaba [https://chat.qwenlm.ai/](https://chat.qwenlm.ai/) [08:20](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=500s) - Talkie [https://www.talkie-ai.com/ru](https://www.talkie-ai.com/ru) [11:00](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=660s) - Kling for video and images [https://klingai.com/](https://klingai.com/) [14:20](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=860s) - Vidu for content creation [https://www.vidu.com/](https://www.vidu.com/)
+[https://www.youtube.com/watch?v=Ci8Eprr2Gok](https://www.youtube.com/watch?v=Ci8Eprr2Gok) (ru) [05:00](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=300s) - an overview of Qwen from Alibaba [https://chat.qwenlm.ai/](https://chat.qwenlm.ai/) [08:20](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=500s) - Talkie [https://www.talkie-ai.com/ru](https://www.talkie-ai.com/ru) [11:00](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=660s) - Kling for video and images [https://klingai.com/](https://klingai.com/) [14:20](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=860s) - Vidu for content creation [https://www.vidu.com/](https://www.vidu.com/)
 
 https://manus.im/ Manus is a general AI agent that bridges minds and actions: it doesn't just think, it delivers results. Manus excels at various tasks in work and life, getting everything done while you rest.
 ## Russian models
@@ -220,12 +220,12 @@ https://manus.im/ Manus is a general AI agent that bridges minds and actions: it
 
 [https://docs.cohere.com/docs/command-r](https://docs.cohere.com/docs/command-r)
 
-## LLM без цензуры
-https://www.youtube.com/watch?v=VCBB732bdvQ # LLM без цензуры. Зачем?
+## Uncensored LLMs
+https://www.youtube.com/watch?v=VCBB732bdvQ # Uncensored LLMs. Why?
 
 https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF 
 
-Облитерированные LLM (или аблитерированные модели, от англ. Abliterated LLMs) — это большие языковые модели, из которых техническим путем удалена цензура и склонность к отказам (refusal behavior). Слово произошло от скрещивания медицинского/физического термина obliteration (стирание, уничтожение) и ИИ-термина ablation (абляция — удаление отдельных компонентов нейросети).
+Abliterated LLMs are large language models whose censorship and tendency to refuse requests (refusal behavior) have been technically removed. The term combines the medical/physical term "obliteration" (erasure or destruction) with the AI term "ablation" (removing individual components of a neural network).
 
 ## Models for Embedding
 
@@ -245,9 +245,9 @@ https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF
 
 ### Dewiar
 
-* [https://www.youtube.com/watch?v=1y0lreLW1vA\&t=0s](https://www.youtube.com/watch?v=1y0lreLW1vA&t=0s) MINDMAP-AI канал автора [https://www.youtube.com/@MrDewiar/videos](https://www.youtube.com/@MrDewiar/videos) ТВОРИ как БОГ: ИИ рисует за тебя схемы, графики и диаграммы! (Революция в мозговом штурме)
-  на базе draw.io - [https://dewiar.com/mindmap-ai](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2xYU1RMV09KQjNIT19mVERxal9MYU1lQ0ZPd3xBQ3Jtc0tsX3d3RDdYcGsydENGVWh2OTFiUElUbC1jbmVjaWVKenUtMHdCcVpTZ1FpWmVpYURwemZLTURXdE4xWTlhUG5rTE5tVHd6WjRmdnpRd1JZZ29RQklnNTBQUlBiQ0NaSGdSWHR3eWJKMk1Tc2dldGRiTQ&q=https%3A%2F%2Fdewiar.com%2Fmindmap-ai&v=1y0lreLW1vA) [https://www.youtube.com/watch?v=NlZxSyy8xAA](https://www.youtube.com/watch?v=NlZxSyy8xAA) общее описание проекта
-* {#id43}платный проект. Есть возможность сравнивать нейросети -ARENA [https://www.youtube.com/watch?v=7pauSTFXOKo](https://www.youtube.com/watch?v=7pauSTFXOKo)
+* [https://www.youtube.com/watch?v=1y0lreLW1vA\&t=0s](https://www.youtube.com/watch?v=1y0lreLW1vA&t=0s) MINDMAP-AI; the author's channel [https://www.youtube.com/@MrDewiar/videos](https://www.youtube.com/@MrDewiar/videos) CREATE like a GOD: AI draws diagrams, charts, and graphs for you! (A revolution in brainstorming)
+  Based on draw.io - [https://dewiar.com/mindmap-ai](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2xYU1RMV09KQjNIT19mVERxal9MYU1lQ0ZPd3xBQ3Jtc0tsX3d3RDdYcGsydENGVWh2OTFiUElUbC1jbmVjaWVKenUtMHdCcVpTZ1FpWmVpYURwemZLTURXdE4xWTlhUG5rTE5tVHd6WjRmdnpRd1JZZ29RQklnNTBQUlBiQ0NaSGdSWHR3eWJKMk1Tc2dldGRiTQ&q=https%3A%2F%2Fdewiar.com%2Fmindmap-ai&v=1y0lreLW1vA) [https://www.youtube.com/watch?v=NlZxSyy8xAA](https://www.youtube.com/watch?v=NlZxSyy8xAA) general project overview
+* {#id43}A paid project. Supports comparing neural networks - ARENA [https://www.youtube.com/watch?v=7pauSTFXOKo](https://www.youtube.com/watch?v=7pauSTFXOKo)
 
 ### Coze
 
@@ -274,7 +274,7 @@ https://anymodel.org/
 
 https://www.litellm.ai/ 
 https://www.youtube.com/watch?v=CAsn4g-mGdo   
-LiteLLM - ПРОКСИ ДЛЯ ТВОИХ LLM! ЗАЧЕМ? И ЧТО ОН ДАЕТ?
+LiteLLM - A PROXY FOR YOUR LLMs! WHY? AND WHAT DOES IT OFFER?
 
 ## OmniRoute
 OmniRoute is ==a free, MIT-licensed, self-hosted open-source AI gateway== that consolidates hundreds of AI models and providers into a single OpenAI-compatible endpoint (`http://localhost:20128/v1`).

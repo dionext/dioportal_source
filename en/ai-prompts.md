@@ -220,7 +220,7 @@ Your task is to extract model names from machine learning paper abstracts. Your 
 
 Abstract: Large Language Models (LLMs), such as ChatGPT and GPT-4, have revolutionized natural language processing research and demonstrated potential in Artificial General Intelligence (AGI). However, the expensive training and deployment of LLMs present challenges to transparent and open academic research. To address these issues, this project open-sources the Chinese LLaMA and Alpaca...
 
-Инструкция: Найди все упомянутые даты и время в тексте. Выпиши их, каждый с новой строки. Пример результата: 22-01-2019 17:00 Завтра 18:15 Вчера Если в тексте нет дат, верни 0.
+Instruction: Find all dates and times mentioned in the text. List each on a separate line. Example output: 22-01-2019 17:00 Tomorrow 18:15 Yesterday. If there are no dates in the text, return 0.
 
 #### Question Answering
 
@@ -434,14 +434,14 @@ Example form [https://www.youtube.com/watch?v=SE4IotjLWzc](https://www.youtube.c
 
 A simple sketch illustration of \[INSERT CUSTOM SCENE DESCRIPTION HERE\]. The lines are slightly uneven and hand-drawn, giving a warm, organic feel. The background is white. The illustration has minimalistic, slightly rough lines and is black and white.
 
-  1) Оставь текст вне квадратных скобок \[INSERT CUSTOM SCENE DESCRIPTION HERE\] неизменным.
-  2) Замени текст внутри квадратных скобок \[INSERT CUSTOM SCENE DESCRIPTION HERE\] на описание сцены с участием человека или персонажа, которое я тебе напишу или попрошу придумать.
-  3) Имей в виду, что иллюстрации у нас черно-белые (об этом сказано в промпте)
-  4) Не используй в иллюстрациях "текст", то есть никаких табличек, знаков и т.п.
-  5) Эта фраза всегда должна быть в начале: A simple sketch illustration of
-  6) Эта фраза всегда должна быть в конце: The lines are slightly uneven and hand-drawn, giving a warm, organic feel. The background is white. The illustration has minimalistic, slightly rough lines and is black and white.
+  1) Keep the text outside the square brackets \[INSERT CUSTOM SCENE DESCRIPTION HERE\] unchanged.
+  2) Replace the text inside the square brackets \[INSERT CUSTOM SCENE DESCRIPTION HERE\] with a description of a scene featuring a person or character that I will describe to you or ask you to invent.
+  3) Keep in mind that our illustrations are black and white (as stated in the prompt).
+  4) Do not use "text" in the illustrations: no signs, placards, etc.
+  5) Always begin with this phrase: A simple sketch illustration of
+  6) Always end with this phrase: The lines are slightly uneven and hand-drawn, giving a warm, organic feel. The background is white. The illustration has minimalistic, slightly rough lines and is black and white.
 
-Придумай промпт с ленивцем (животным) -фрилансером, который сидит за ноутбуком и у него горят сроки по дедлайну
+Create a prompt featuring a sloth (the animal) working as a freelancer, sitting at a laptop and struggling to meet an urgent deadline.
 
 ==== Result ====
 
@@ -449,9 +449,9 @@ A simple sketch illustration of a sloth freelancer sitting at a small wooden des
 
 ### Prompt libraries
 
-[https://www.youtube.com/watch?v=2KBpbppVM\_E](https://www.youtube.com/watch?v=2KBpbppVM_E) 8 лучших библиотек промптов + OpenAI выпустила бесплатный генератор промптов
+[https://www.youtube.com/watch?v=2KBpbppVM\_E](https://www.youtube.com/watch?v=2KBpbppVM_E) The 8 best prompt libraries + OpenAI has released a free prompt generator
 
-  * [https://yandex.cloud/ru/docs/foundation-models/prompts/yandexgpt](https://yandex.cloud/ru/docs/foundation-models/prompts/yandexgpt) для запросов на русском языке
+  * [https://yandex.cloud/ru/docs/foundation-models/prompts/yandexgpt](https://yandex.cloud/ru/docs/foundation-models/prompts/yandexgpt) for prompts in Russian
   * [https://ai.google.dev/gemini-api/prompts](https://ai.google.dev/gemini-api/prompts)
   * [https://hero.page/discover](https://hero.page/discover)
   * [https://snackprompt.com/](https://snackprompt.com/) +

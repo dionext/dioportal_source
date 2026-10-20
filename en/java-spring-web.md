@@ -46,7 +46,7 @@ Static content support, that is, the ability to add static content, such as HTML
 
 [https://www.youtube.com/watch?v=h\_e1picwRBg](https://www.youtube.com/watch?v=h_e1picwRBg)
 
-[https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=ru](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=ru) Плагин к Хрому JSON formatter
+[https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=ru](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=ru) JSON formatter extension for Chrome
 
 [https://www.baeldung.com/spring-rest-hal](https://www.baeldung.com/spring-rest-hal)
 
@@ -141,9 +141,9 @@ In addition to substituting values into attributes, it is possible to substitute
 
 ### References
 
- [https://www.youtube.com/watch?v=tVQ8w0Rk\_II 34. Thymeleaf. Spring WEB и Spring Boot 3 (Java Enterprise - полный курс) JavaGuru](https://www.youtube.com/watch?v=tVQ8w0Rk_II)
+ [https://www.youtube.com/watch?v=tVQ8w0Rk\_II 34. Thymeleaf. Spring WEB and Spring Boot 3 (Java Enterprise - complete course) JavaGuru](https://www.youtube.com/watch?v=tVQ8w0Rk_II)
 
- [https://www.youtube.com/watch?v=eqzgTo-YMaU 35. Filtering, Pagination, Validation. Spring Boot 3 (Java Enterprise - полный курс)](https://www.youtube.com/watch?v=eqzgTo-YMaU)
+ [https://www.youtube.com/watch?v=eqzgTo-YMaU 35. Filtering, Pagination, Validation. Spring Boot 3 (Java Enterprise - complete course)](https://www.youtube.com/watch?v=eqzgTo-YMaU)
 
 ## JTE Template Engine
 

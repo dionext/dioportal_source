@@ -289,8 +289,8 @@ docker run -d \
 ```
 ~~~
 
-**Не выбрано окружение (Environment) в интерфейсе**:  
-В правом верхнем углу интерфейса **Dockhand** нажмите на селектор окружений (**Environments**) и убедитесь, что выбрано активное локальное окружение (Local Docker socket), а не пустое или удаленное.
+**No environment selected in the interface**:  
+In the top-right corner of the **Dockhand** interface, click the environment selector (**Environments**) and make sure an active local environment (Local Docker socket) is selected, rather than an empty or remote one.
 
 ## References
 

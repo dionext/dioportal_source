@@ -2,7 +2,7 @@
 
 https://openai.com/codex/ 
 
-==**[OpenAI Codex](https://developers.openai.com/codex)**== — это автономная экосистема ИИ-агентов, созданная для комплексного выполнения задач в сфере разработки программного обеспечения и бизнес-аналитики. В отличие от классического диалогового чат-бота ChatGPT, Codex работает как полноценный **цифровой сотрудник**: он функционирует в изолированных песочницах (sandboxes), может взаимодействовать с файловой системой вашего компьютера и выполнять длительные цепочки задач в фоновом режиме без постоянных подсказок.
+==**[OpenAI Codex](https://developers.openai.com/codex)**== is an autonomous ecosystem of AI agents designed to carry out complex tasks in software development and business analytics. Unlike the classic conversational chatbot ChatGPT, Codex acts as a full-fledged **digital employee**: it operates in isolated sandboxes, can interact with your computer's filesystem, and can execute long sequences of tasks in the background without constant prompting.
 ## OpenClaw
 
 ### Installation 
@@ -33,4 +33,4 @@ Free models included or connect any model from any provider,including Claude, GP
 Setting up **Google Gemma 4** (specifically sizes like `gemma4:e4b` or `gemma4:26B`) in Visual Studio Code allows you to run a powerful, free, and private AI coding assistant locally without an internet connection. It features a massive 256K context window and advanced reasoning capabilities
 # References 
 
-https://www.youtube.com/watch?v=HwvAWRyJt5k # ИИ Агенты и куда ведет их развитие. 
+https://www.youtube.com/watch?v=HwvAWRyJt5k # AI agents and where their development is heading. 

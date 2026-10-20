@@ -17,7 +17,7 @@ aliases:
 
 apt-get update
 
-apt-get install ntfs-3g (для корректного монтирования NTFS)
+apt-get install ntfs-3g (for correct NTFS mounting)
 
 apt-get install mc
 

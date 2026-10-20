@@ -215,7 +215,7 @@ Lightbox (ekko-lightbox) is a JavaScript library that displays images and videos
 
 Note: For bootstrap 5 use [https://trvswgnr.github.io/bs5-lightbox/](https://trvswgnr.github.io/bs5-lightbox/)
 
-* [https://github.com/feimosi/baguetteBox.js](https://github.com/feimosi/baguetteBox.js) (галерея [https://tutorialzine.com/2018/03/3-amazing-bootstrap-4-gallery-templates](https://tutorialzine.com/2018/03/3-amazing-bootstrap-4-gallery-templates) )
+* [https://github.com/feimosi/baguetteBox.js](https://github.com/feimosi/baguetteBox.js) (gallery [https://tutorialzine.com/2018/03/3-amazing-bootstrap-4-gallery-templates](https://tutorialzine.com/2018/03/3-amazing-bootstrap-4-gallery-templates))
 * [https://veno.es/](https://veno.es/) VenoBox 2 Just another jQuery Vanilla JS \[Lightbox\](https://en.wikipedia.org/wiki/Lightbox\_(JavaScript%2529) plugin, suitable for Images, Videos, Inline contents, iFrames, Ajax requests.
 * [https://jonmiles.github.io/bootstrap-treeview/](https://jonmiles.github.io/bootstrap-treeview/)
 * [https://demos.devexpress.com/Bootstrap/](https://demos.devexpress.com/Bootstrap/)

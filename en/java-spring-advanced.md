@@ -23,7 +23,7 @@ aliases:
 
 [https://phrase.com/blog/posts/database-stored-messages-for-i18n-in-spring-boot/](https://phrase.com/blog/posts/database-stored-messages-for-i18n-in-spring-boot/)
 
-[https://stackoverflow.com/questions/59410685/load-messages-files-in-messagesouce-from-imported-jar](https://stackoverflow.com/questions/59410685/load-messages-files-in-messagesouce-from-imported-jar) проблема библиотек
+[https://stackoverflow.com/questions/59410685/load-messages-files-in-messagesouce-from-imported-jar](https://stackoverflow.com/questions/59410685/load-messages-files-in-messagesouce-from-imported-jar) A library-related issue
 
 \<h1 th:text="#{greeting}"\>\</h1\>
 

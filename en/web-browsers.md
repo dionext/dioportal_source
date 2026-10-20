@@ -1,7 +1,7 @@
 
-**Headless Chrome — это режим работы браузера Google Chrome, при котором он запускается без графического пользовательского интерфейса (GUI)**
+**Headless Chrome is a mode of the Google Chrome browser that runs without a graphical user interface (GUI).**
 
-Так как у браузера нет окон и кнопок, управление им происходит программно через специальный протокол **Chrome DevTools Protocol (CDP)**. Для этого чаще всего используют популярные библиотеки автоматизации:
-- **Puppeteer**: Официальная библиотека от команды Google, написанная на Node.js. Идеально оптимизирована под экосистему Chrome.
-- **Playwright**: Мощный современный фреймворк от Microsoft. Поддерживает не только Chrome, но и Firefox/WebKit, умеет изолировать сессии внутри одного процесса.
-- **Selenium**: Классический инструмент автоматизации, поддерживающий множество языков программирования (Python, Java, C# и др.)
+Because the browser has no windows or buttons, it is controlled programmatically through the **Chrome DevTools Protocol (CDP)**. Popular automation libraries are commonly used for this:
+- **Puppeteer**: The official library from the Google team, written for Node.js. Optimized for the Chrome ecosystem.
+- **Playwright**: A powerful modern framework from Microsoft. Supports Chrome as well as Firefox/WebKit, and can isolate sessions within a single process.
+- **Selenium**: A classic automation tool supporting many programming languages (Python, Java, C#, etc.).

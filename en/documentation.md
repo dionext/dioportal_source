@@ -133,7 +133,7 @@ https://github.com/kevboh/longform  Longform is a plugin for Obsidian that helps
 
 ### Import from different sources 
 
-- \[Подробная настройка и использование Telegram Sync\](https://www.youtube.com/watch?v=xV02gHXZULM\&t=555s)
+- \[Detailed setup and usage of Telegram Sync\](https://www.youtube.com/watch?v=xV02gHXZULM\&t=555s)
 - \[Obsidian Web Clipper\](https://obsidian.md/clipper) (from https://www.youtube.com/watch?v=_sigcgludUE  Obsidian Web Clipper Deep Dive: Free AI-Powered Web Capture That Beats Readwise) 
 - Telegram Sync [https://obsidian.md/plugins?id=telegram-sync](https://obsidian.md/plugins?id=telegram-sync)
 - https://github.com/OliverBalfour/obsidian-pandoc (old beta) It adds command palette options to export your notes to a variety of formats including Word Documents, PDFs, ePub books, HTML websites, PowerPoints and LaTeX among (many) others. This is all thanks to Pandoc. This lets you write presentations, draft books, make webpages, and write assignments all in Markdown, and export to whichever format you fancy, all without leaving Obsidian.
@@ -197,19 +197,19 @@ Plugins for Visual Studio Code
 The Easiest Way to Connect Your Obsidian Vault with Github [https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github](https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github)
 
 ### References 
-https://www.youtube.com/watch?v=6R3RF2CoYv8 # 33 приёма Obsidian, без которых я уже не могу работать
+https://www.youtube.com/watch?v=6R3RF2CoYv8 # 33 Obsidian techniques I can no longer work without
 
 [https://www.dsebastien.net/2022-10-19-the-must-have-obsidian-plugins/](https://www.dsebastien.net/2022-10-19-the-must-have-obsidian-plugins/)
 
-https://www.youtube.com/watch?v=h7P3CHuXpe4  Секрет идеальной Базы Знаний ИИ: Obsidian + Claude Code за 1 вечер
+https://www.youtube.com/watch?v=h7P3CHuXpe4  The secret to the perfect AI knowledge base: Obsidian + Claude Code in one evening
 
 # Graph
 
 ## Draw.io
 
-[Draw.io](http://draw.io/) или [Diagrams.net](http://diagrams.net/) — это бесплатный инструмент для создания диаграмм. С его помощью можно рисовать блок-схемы, ментальные карты, организационные структуры и многое другое. У сервиса простой интерфейс и большая библиотека шаблонов. Пользоваться им можно прямо в браузере или через приложение для Windows, macOS и Linux.
+[Draw.io](http://draw.io/), also known as [Diagrams.net](http://diagrams.net/), is a free diagramming tool. You can use it to draw flowcharts, mind maps, organizational charts, and much more. The service has a simple interface and a large template library. You can use it directly in your browser or through an application for Windows, macOS, and Linux.
 
-Диаграммы можно экспортировать в PNG, SVG, PDF и другие форматы. Также их можно сохранять в Google Drive, OneDrive, Dropbox, GitHub или локально на устройстве. При этом ваша работа не привязана к одному облаку, как в случае с Google Drawings, где всё хранится в Google Drive.
+Diagrams can be exported to PNG, SVG, PDF, and other formats. You can also save them to Google Drive, OneDrive, Dropbox, GitHub, or locally on your device. Your work is not tied to a single cloud service, unlike Google Drawings, where everything is stored in Google Drive.
 
 https://www.drawio.com/docs/security/diagrams-offline/  [draw.io Desktop](https://get.diagrams.net/) is a downloadable security-first diagramming application that runs fully offline on Windows, MacOS and Linux.
 Creating diagrams in the desktop app doesn't need an internet connection. This is useful when you are disconnected or when you must create diagrams in a highly secure environment, where [data protection](https://www.drawio.com/docs/security/) is of the utmost importance.

@@ -729,7 +729,7 @@ sensors
 
 [http://www.jinr.ru/unixinfo/usersguide/](http://www.jinr.ru/unixinfo/usersguide/) (lang: rus)
 
-Red Hat Enterprise Linux 4 Руководство по системному администрированию  
+Red Hat Enterprise Linux 4 System Administration Guide  
 [http://www.rhd.ru/docs/manuals/enterprise/RHEL-4-Manual/sysadmin-guide/index.html](http://www.rhd.ru/docs/manuals/enterprise/RHEL-4-Manual/sysadmin-guide/index.html) (lang: rus)
 
 [http://homes-smart.ru/index.php/oborudovanie/raspberry-pi/azbuka-po-linux-sistemam](http://homes-smart.ru/index.php/oborudovanie/raspberry-pi/azbuka-po-linux-sistemam) (lang: rus)

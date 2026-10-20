@@ -65,7 +65,7 @@ Linux
 ssh-copy-id -i ~/.ssh/id_rsa root@192.168.1.10
 ```
 
-или
+or
 
 ```bash
 ssh-copy-id -i /mnt/remotecontrol/ssh/id_rsa root@192.168.1.86

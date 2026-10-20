@@ -97,15 +97,15 @@ Getting started with (Retrieval Augmented Generation) RAG in Java \& Spring AI [
 
 [https://www.youtube.com/watch?v=yPu-WV\_00Tk](https://www.youtube.com/watch?v=yPu-WV_00Tk) Spring Tips: Vector Databases with Spring AI [https://www.youtube.com/watch?v=Q65-Zade25w](https://www.youtube.com/watch?v=Q65-Zade25w)
 
-[https://www.youtube.com/watch?v=QWgiOoB4OOU](https://www.youtube.com/watch?v=QWgiOoB4OOU) Spring into the AI Era: A Practical Exploration for Developers (Workshop) - базовый старый доклад
+[https://www.youtube.com/watch?v=QWgiOoB4OOU](https://www.youtube.com/watch?v=QWgiOoB4OOU) Spring into the AI Era: A Practical Exploration for Developers (Workshop) - an older introductory talk
 
-[https://www.youtube.com/watch?v=jJ63tedBAzI](https://www.youtube.com/watch?v=jJ63tedBAzI) Building a ChatGPT Clone in Java with HTMX, Spring Boot, and Spring AI простое прокси приложение [https://github.com/danvega/chatgpt-clone](https://github.com/danvega/chatgpt-clone) интересно своим интерфейсом
+[https://www.youtube.com/watch?v=jJ63tedBAzI](https://www.youtube.com/watch?v=jJ63tedBAzI) Building a ChatGPT Clone in Java with HTMX, Spring Boot, and Spring AI; a simple proxy application [https://github.com/danvega/chatgpt-clone](https://github.com/danvega/chatgpt-clone) with an interesting interface
 
 [https://www.youtube.com/watch?v=7K6YPRUtBkQ](https://www.youtube.com/watch?v=7K6YPRUtBkQ) Generating Images with Spring AI
 
 [https://www.youtube.com/watch?v=qL9A21N-6J4](https://www.youtube.com/watch?v=qL9A21N-6J4) Unleashing AI in Java: A Guide to Semantic Kernel, LangChain4j, and Spring AI by Marcus Hellberg
 
-[https://www.youtube.com/watch?v=k3fSQpz2Esg](https://www.youtube.com/watch?v=k3fSQpz2Esg) Code your own dating bot with Spring Boot \& React \& AI [https://github.com/koushikkothagal/tinder-ai-backend](https://github.com/koushikkothagal/tinder-ai-backend) пример организации фейкового чат диалога , фронт на React
+[https://www.youtube.com/watch?v=k3fSQpz2Esg](https://www.youtube.com/watch?v=k3fSQpz2Esg) Code your own dating bot with Spring Boot \& React \& AI [https://github.com/koushikkothagal/tinder-ai-backend](https://github.com/koushikkothagal/tinder-ai-backend) an example of setting up a simulated chat conversation, with a React frontend
 
 [https://www.youtube.com/watch?v=0QVdJcxGf1M](https://www.youtube.com/watch?v=0QVdJcxGf1M) Generate Dynamic Websites using ChatGPT and Spring AI
 

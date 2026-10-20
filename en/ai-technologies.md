@@ -56,13 +56,13 @@ With its vector database at the core, Pinecone is the leading knowledge platform
 
 ### RAG
 
-todo [https://www.youtube.com/watch?v=JanB50ALQg0](https://www.youtube.com/watch?v=JanB50ALQg0) Иван Насонов | Advanced RAG Pipelines
+todo [https://www.youtube.com/watch?v=JanB50ALQg0](https://www.youtube.com/watch?v=JanB50ALQg0) Ivan Nasonov | Advanced RAG Pipelines
 
 [https://www.youtube.com/watch?v=6Pgmr7xMjiY](https://www.youtube.com/watch?v=6Pgmr7xMjiY) Java + RAG: Create an AI-Powered Financial Advisor using Spring AI
 
-[https://www.youtube.com/watch?v=JeqAdqBA\_Yo](https://www.youtube.com/watch?v=JeqAdqBA_Yo) Загружаем в ИИ большие данные (книги, документы), заставляем ИИ цитировать источники, автономия
+[https://www.youtube.com/watch?v=JeqAdqBA\_Yo](https://www.youtube.com/watch?v=JeqAdqBA_Yo) Feeding large datasets (books and documents) into AI, making AI cite sources, and autonomy
 
-[https://www.youtube.com/watch?v=NArkdDqt-F0](https://www.youtube.com/watch?v=NArkdDqt-F0) Анатомия RAG: Разбираем по косточкам современных чат-ботов. Галымжан Туткушев
+[https://www.youtube.com/watch?v=NArkdDqt-F0](https://www.youtube.com/watch?v=NArkdDqt-F0) The anatomy of RAG: taking modern chatbots apart. Galymzhan Tutkushev
 
 [https://www.baeldung.com/spring-ai-redis-rag-app](https://www.baeldung.com/spring-ai-redis-rag-app)
 
