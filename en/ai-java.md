@@ -75,7 +75,7 @@ The primary roles are:
 
 * Assistant Role: The AI's response to the user's input. More than just an answer or reaction, it's crucial for maintaining the flow of the conversation. By tracking the AI's previous responses (its 'Assistant Role' messages), the system ensures coherent and contextually relevant interactions. The Assistant message may contain Function Tool Call request information as well. It's like a special feature in the AI, used when needed to perform specific functions such as calculations, fetching data, or other tasks beyond just talking.
 
-* Tool/Function Role: The Too/Function Role focuses on returning additional information in response to Tool Call Aisstnat Messages.
+* Tool/Function Role: The Tool/Function Role focuses on returning additional information in response to Tool Call Assistant Messages.
 
 [https://spring.io/projects/spring-ai](https://spring.io/projects/spring-ai)
 
@@ -99,13 +99,13 @@ Getting started with (Retrieval Augmented Generation) RAG in Java \& Spring AI [
 
 [https://www.youtube.com/watch?v=QWgiOoB4OOU](https://www.youtube.com/watch?v=QWgiOoB4OOU) Spring into the AI Era: A Practical Exploration for Developers (Workshop) - базовый старый доклад
 
-[https://www.youtube.com/watch?v=jJ63tedBAzI](https://www.youtube.com/watch?v=jJ63tedBAzI) Building a ChatGPT Clone in Java with HTMX, Spring Boot, and Spring AI провстое прокси приложение [https://github.com/danvega/chatgpt-clone](https://github.com/danvega/chatgpt-clone) интересно своим интефейсом
+[https://www.youtube.com/watch?v=jJ63tedBAzI](https://www.youtube.com/watch?v=jJ63tedBAzI) Building a ChatGPT Clone in Java with HTMX, Spring Boot, and Spring AI простое прокси приложение [https://github.com/danvega/chatgpt-clone](https://github.com/danvega/chatgpt-clone) интересно своим интерфейсом
 
 [https://www.youtube.com/watch?v=7K6YPRUtBkQ](https://www.youtube.com/watch?v=7K6YPRUtBkQ) Generating Images with Spring AI
 
 [https://www.youtube.com/watch?v=qL9A21N-6J4](https://www.youtube.com/watch?v=qL9A21N-6J4) Unleashing AI in Java: A Guide to Semantic Kernel, LangChain4j, and Spring AI by Marcus Hellberg
 
-[https://www.youtube.com/watch?v=k3fSQpz2Esg](https://www.youtube.com/watch?v=k3fSQpz2Esg) Code your own dating bot with Spring Boot \& React \& AI [https://github.com/koushikkothagal/tinder-ai-backend](https://github.com/koushikkothagal/tinder-ai-backend) пример огранизации фейкового чат диалога , фронт на React
+[https://www.youtube.com/watch?v=k3fSQpz2Esg](https://www.youtube.com/watch?v=k3fSQpz2Esg) Code your own dating bot with Spring Boot \& React \& AI [https://github.com/koushikkothagal/tinder-ai-backend](https://github.com/koushikkothagal/tinder-ai-backend) пример организации фейкового чат диалога , фронт на React
 
 [https://www.youtube.com/watch?v=0QVdJcxGf1M](https://www.youtube.com/watch?v=0QVdJcxGf1M) Generate Dynamic Websites using ChatGPT and Spring AI
 

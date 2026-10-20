@@ -68,7 +68,7 @@ aliases:
   
   [https://www.youtube.com/@aiapod](https://www.youtube.com/@aiapod) AIA Podcast
   
-  [https://www.youtube.com/@serge\_ai](https://www.youtube.com/@serge_ai) советы для пользоватедей
+  [https://www.youtube.com/@serge\_ai](https://www.youtube.com/@serge_ai) советы для пользователей
   
   [https://www.youtube.com/watch?v=WkXJy4LUo7U](https://www.youtube.com/watch?v=WkXJy4LUo7U) Изменили ли LLM бизнес? - Артем Бондарь, руководитель NLP-отдела AI-Центра в Т-Банке
   

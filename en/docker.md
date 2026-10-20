@@ -224,7 +224,7 @@ $ truncate -s 0 /var/lib/docker/containers/*/*-json.log
     COPY ./target/hiki-ms-app-0.0.1-SNAPSHOT.jar .
     CMD ["java","-jar","hiki-ms-app-0.0.1-SNAPSHOT.jar"]
 
-Comparation of different images
+Comparison of different images
 
 |---------------------------------------------------|-------|
 | FROM bellsoft/liberica-openjdk-alpine-musl:21.0.2 | 187MB |

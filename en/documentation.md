@@ -70,7 +70,7 @@ https://help.obsidian.md/file-formats  Accepted file formats
 
 [https://help.obsidian.md/plugins/audio-recorder](https://help.obsidian.md/plugins/audio-recorder)
 
-### Text formating 
+### Text formatting 
 
 ~~~ markdown 
 >[!question] 

@@ -29,7 +29,7 @@ Next.js is an open-source web development framework created by the private compa
 
 [https://www.youtube.com/watch?v=EbIps-suESk](https://www.youtube.com/watch?v=EbIps-suESk) Spring boot + nextjs starter kit | Auth, Oauth2, Emails, S3 and more. Step by step guide
 
-есть мнение , что Next.js слишком зарекламрован, переусложнен, особенно для статичных сайтов - альтернатива Astro - статический генератор сайтов, ориентированный на производительность. [https://habr.com/ru/articles/746380/](https://habr.com/ru/articles/746380/)
+есть мнение , что Next.js слишком зарекламирован, переусложнен, особенно для статичных сайтов - альтернатива Astro - статический генератор сайтов, ориентированный на производительность. [https://habr.com/ru/articles/746380/](https://habr.com/ru/articles/746380/)
 
 ## Astro
 

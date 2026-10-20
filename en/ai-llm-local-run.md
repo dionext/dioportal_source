@@ -14,7 +14,7 @@ aliases:
 
 https://ollama.com/library/mistral 
 mistral:7b  4.4GB   32K    Text
-(не походит для Hermes)
+(не подходит для Hermes)
 
 https://ollama.com/library/gemma4:12b
 gemma4:12b  7.6GB 256K Text, Image
@@ -57,7 +57,7 @@ When to Use It
 
 https://ollama.com/download/OllamaSetup.exe
 
-установка веб интерфейса open-webui: источник https://github.com/open-webui/open-webui  
+установка веб-интерфейса open-webui: источник https://github.com/open-webui/open-webui  
 Запуск open-webui: перейти в папку open-webui/backend и запустить файл start\_windows.bat  
 перейти в браузер и ввести localhost:8080  
 https://docs.openwebui.com/getting-started/#alternative-installation-methods  
@@ -87,7 +87,7 @@ Ollama allows cross-origin requests from 127.0.0.1 and 0.0.0.0 by default. Addit
 
 OLLAMA\_HOST=0.0.0.0
 
-тоже в виде комманды
+тоже в виде команды
 
 OLLAMA\_HOST="0.0.0.0" ollama serve
 
@@ -95,7 +95,7 @@ OLLAMA\_HOST="0.0.0.0" ollama serve
 
 \[curl http://192.168.1.75:11434/api/generate -d '{ "model": "mistral", "prompt": "What is water made of?" }'\](../../../../dio\_documents/other/curl%20http:/192.168.1.75:11434/api/generate%20-d%20'{%20%22model%22:%20%22mistral%22,%20%22prompt%22:%20%22What%20is%20water%20made%20of?" }')
 
-### Комманды
+### Команды
 
 pulling model:
 

@@ -223,7 +223,7 @@ The Spring Framework includes several modules that provide a range of services:
 * IntelliJ IDEA Ultimate (File-New-Project...-Spring Initializer).
 * Spring Boot CLI
 
-Рекомендации по струкруре директорий и т.п. [https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-structuring-your-code.html](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-structuring-your-code.html)
+Рекомендации по структуре директорий и т.п. [https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-structuring-your-code.html](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-structuring-your-code.html)
 
 ## Spring Starters {\#using.build-systems.starters}
 

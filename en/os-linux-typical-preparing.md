@@ -198,7 +198,7 @@ Creating folders (for example)
 
 sudo mkdir -p /mnt/devops/monitoring
 
-# UI and soft fo UI
+# UI and soft for UI
 
 In order to connect to the physical desktop of the remote Linux host, it's necessary that a desktop environment is installed. This is necessary also for creating a NoMachine virtual desktop.  
 A desktop environment is a set of programs running on top of the computer operating system and sharing a common graphical user interface. Most common Linux desktop environments are Unity 3D, GNOME 3, KDE's Plasma desktop (they all implement 3D hardware acceleration and use OpenGL)  and lightweight ones such as MATE desktop (a fork of GNOME 2), Xfce and LXDE.

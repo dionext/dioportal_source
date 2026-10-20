@@ -35,7 +35,7 @@ List of Relational database management systems (RDMS) [https://en.wikipedia.org/
 
 [https://en.wikipedia.org/wiki/SQLite](https://en.wikipedia.org/wiki/SQLite)
 
-## PostgresSQL
+## PostgreSQL
 
 PostgreSQL also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance. PostgreSQL features transactions with atomicity, consistency, isolation, durability (ACID) properties, automatically updatable views, materialized views, triggers, foreign keys, and stored procedures. It is supported on all major operating systems, including Linux, FreeBSD, OpenBSD, macOS, and Windows, and handles a range of workloads from single machines to data warehouses or web services with many concurrent users. [https://en.wikipedia.org/wiki/PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
 

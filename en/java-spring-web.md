@@ -46,7 +46,7 @@ Static content support, that is, the ability to add static content, such as HTML
 
 [https://www.youtube.com/watch?v=h\_e1picwRBg](https://www.youtube.com/watch?v=h_e1picwRBg)
 
-[https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=ru](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=ru) Плугин к хрому JSON formater
+[https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=ru](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=ru) Плагин к Хрому JSON formatter
 
 [https://www.baeldung.com/spring-rest-hal](https://www.baeldung.com/spring-rest-hal)
 

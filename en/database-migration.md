@@ -94,6 +94,6 @@ public class V2__JavaMigration extends BaseJavaMigration {
 
 ## Liquibase
 
-## Liquibase vs Flyway - comparation
+## Liquibase vs Flyway - comparison
 
 [https://habr.com/ru/companies/spring\_aio/articles/827976/](https://habr.com/ru/companies/spring_aio/articles/827976/) (ru lang)

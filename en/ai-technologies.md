@@ -34,7 +34,7 @@ For additional training, there is, for example, a popular one [https://github.co
 * [text-embedding-3-large](https://openai.com/blog/new-embedding-models-and-api-updates): One of OpenAI's latest proprietary embedding models
 * [UAE-Large-V1](https://huggingface.co/WhereIsAI/UAE-Large-V1): A small-ish (335M parameters) open-source embedding model
 
-#### Spliting
+#### Splitting
 
 How to split text for embedding? The answer depends on each specific domain. Your main options are:
 
@@ -114,7 +114,7 @@ Q: {Input Query} Read the question again: {Input Query}
 
 While being so simple, RE2 is a general end effective technique that consistently enhances the reasoning performance of LLMs through just a rereading strategy. Furthermore, RE2 is compatible and can be combined with most thought-eliciting prompting methods, including [Chain-of-Thought (CoT)](https://learnprompting.org/docs/intermediate/chain_of_thought).
 
-# Skils
+# Skills
 
 https://agentskills.io/
 
@@ -143,9 +143,9 @@ This approach allows you to register hundreds of skills while keeping your conte
 
 https://www.youtube.com/watch?v=KCcsKaZtyJ0 (ru) 
 
-## Skils Collection
+## Skills Collection
 
-https://playbooks.com/  Skils Collection # Give your agents context to make them smarter Find agent skills and context
+https://playbooks.com/  Skills Collection # Give your agents context to make them smarter Find agent skills and context
 https://skills.sh/ Skills are reusable capabilities for AI agents. Install them with a single command to enhance your agents with access to procedural knowledge.
 
 ## Skills Security 

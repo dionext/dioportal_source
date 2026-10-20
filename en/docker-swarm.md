@@ -208,6 +208,6 @@ Often used Docker swarm health checks
 
 ## References
 
-[https://www.youtube.com/watch?v=GgkreJfdTL8](https://www.youtube.com/watch?v=GgkreJfdTL8) Doсker Swarm (lang: ru)
+[https://www.youtube.com/watch?v=GgkreJfdTL8](https://www.youtube.com/watch?v=GgkreJfdTL8) Docker Swarm (lang: ru)
 
 [https://www.youtube.com/watch?v=XcpqfN8-2R0](https://www.youtube.com/watch?v=XcpqfN8-2R0) DevOps by Rebrain: Docker Swarm \& Gitlab

@@ -75,17 +75,17 @@ Recomended model: Parakeet V3
 
 
 LocalText2Voice
-https://www.youtube.com/watch?v=mOhEeRcX5k0  # LocalText2Voice - создаем аудио-книги и подкасты через ИИ. Бесплатно, локально. Установка + Обзор
-LocalText2Voice — бесплатное приложения с открытым исходным кодом для Windows для создания длинных аудиокниг и подкастов. Приложение управляет всем процессом: разбивает большие тексты на сегменты, назначает разные голоса персонажам, позволяет прослушивать и перегенерировать отдельные фрагменты, добавлять фоновую музыку, выполнять сведение и экспортировать готовый результат.
+https://www.youtube.com/watch?v=mOhEeRcX5k0  # LocalText2Voice - создаем аудиокниги и подкасты через ИИ. Бесплатно, локально. Установка + Обзор
+LocalText2Voice — бесплатное приложение с открытым исходным кодом для Windows для создания длинных аудиокниг и подкастов. Приложение управляет всем процессом: разбивает большие тексты на сегменты, назначает разные голоса персонажам, позволяет прослушивать и перегенерировать отдельные фрагменты, добавлять фоновую музыку, выполнять сведение и экспортировать готовый результат.
 
 ⏺HypeScribe (https://www.hypescribe.com/ru)
 Может вытаскивать текст по ссылкам из любой соцсети: YouTube, VK, Rutube, запретграм и других. Плюс умеет подключаться к Zoom, Google Meet и Teams, делать саммари и отвечать на вопросы по транскрипту.
 
 🔍 NotebookLM (https://notebooklm.google.com/)
-Делает очень точные саммари из Youtube видео и любых файлов, но не может вытягивать текст из других соцсетей. Зато, можно задавать нейронки любые вопросы по теме видео а потом еще сделать инфографику, презу, чек-лист, подкаст на очень хорошем уровне на русском.
+Делает очень точные саммари из Youtube видео и любых файлов, но не может вытягивать текст из других соцсетей. Зато, можно задавать нейронке любые вопросы по теме видео а потом еще сделать инфографику, презу, чек-лист, подкаст на очень хорошем уровне на русском.
 
 💻 MacWhisper (https://www.macwhisper.net/)
-Тоже локальный сервис с бесплатным функционалом, который я использую для расшифровки больших видео и аудио файлов на компе. Например, записал видео на 50 минут — закинул — получил подробный и точный транскрипт. 
+Тоже локальный сервис с бесплатным функционалом, который я использую для расшифровки больших видео и аудиофайлов на компе. Например, записал видео на 50 минут — закинул — получил подробный и точный транскрипт. 
 
 
 https://transcribetext.com/  Lightning-fast AI transcription service for all your audio and video needs.
@@ -184,7 +184,7 @@ docker run -d -p 9000:9000 -e ASR\_MODEL=base -e ASR\_ENGINE=openai\_whisper one
 * base очень маленькая, но дает плохой результат  
 * medium больше, но не дает идеальный результат 
 * large-v3-turbo дает существенно лучший результат распознавания , чем medium, хотя не намного её больше	https://huggingface.co/openai/whisper-large-v3-turbo   
-* large - не проверял, но судя по сайт, она сильно больше размером
+* large - не проверял, но судя по сайту, она сильно больше размером
 
 
 #### WhisperX {\#whisperx}
@@ -247,11 +247,11 @@ https://www.youtube.com/watch?v=z7zU_tU3m-g (ru) Revolution in the world of cont
 
 https://consensus.app/ Consensus is the AI-powered academic search engine Search & analyze200M+ peerreviewed research papers
 
-[https://www.youtube.com/watch?v=CMizH-0uJRw](https://www.youtube.com/watch?v=CMizH-0uJRw) AI mindset \[knowledge\]: Итоги 8 недель лаборатории управления знаниям с Obsidian и AI рекомендуют How to Take Smart Notes (Sönke Ahrens)
+[https://www.youtube.com/watch?v=CMizH-0uJRw](https://www.youtube.com/watch?v=CMizH-0uJRw) AI mindset \[knowledge\]: Итоги 8 недель лаборатории управления знаниями с Obsidian и AI рекомендуют How to Take Smart Notes (Sönke Ahrens)
 
 [https://www.youtube.com/watch?v=T2aYngze9Ko](https://www.youtube.com/watch?v=T2aYngze9Ko) Промпты для Ученых в ChatGPT: Как Использовать ИИ для Научных Исследований?
 
-[https://www.youtube.com/watch?v=sUJMAx\_dfR4](https://www.youtube.com/watch?v=sUJMAx_dfR4) Умная Таблица = 100 Задач за 5 секунд! (работа с excel ТАБИЫЦАМИ)
+[https://www.youtube.com/watch?v=sUJMAx\_dfR4](https://www.youtube.com/watch?v=sUJMAx_dfR4) Умная Таблица = 100 Задач за 5 секунд! (работа с excel ТАБЛИЦАМИ)
 
 [https://www.youtube.com/watch?v=K0HquGPI55A](https://www.youtube.com/watch?v=K0HquGPI55A) Написание научных работ с помощью нейросетей: Повышаем качество и эффективность | Наталья Киреева
 
@@ -317,7 +317,7 @@ Free $0
 - Standard icons
 - Napkin branding on visuals
 
-картинки можно экспортировать, но на бесплатной тарифе с лого 
+картинки можно экспортировать, но на бесплатном тарифе с лого 
 
 ## Using for Everyday Life
 
@@ -369,7 +369,7 @@ Google Opal https://developers.googleblog.com/en/introducing-opal/
 
 [https://www.youtube.com/watch?v=L4uST6vOTac](https://www.youtube.com/watch?v=L4uST6vOTac) Make vs n8n-The Wrong Choice Will Cost You ( [https://www.youtube.com/watch?v=AsstdtiX8XU](https://www.youtube.com/watch?v=AsstdtiX8XU) (ru))
 
-## Using fo HR 
+## Using for HR 
 https://work.mercor.com/apply/resume Mercor helps you get considered by hundreds of companies with one application.
 Mercor is a platform that connects global talent with US companies. Specifically, our AI vetting process identifies exceptional individuals from around the world and matches them with the best opportunities.
 

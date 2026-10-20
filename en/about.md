@@ -11,7 +11,7 @@ aliases:
 
 # About project
 
-This site contains information on one of the typical stacks of modern software development technologies. The main technologies included in the described stack: Microservices architecture, Java development, Using Spring and String Boot, Web technologies, Deployment to a container environment, Monitoring. The purpose of the site is to show the full cycle of software development using this stack, with an emphasis on Devops tasks. You can find here: useful best practices, articles, code samples, snippets and references.
+This site contains information on one of the typical stacks of modern software development technologies. The main technologies included in the described stack: Microservices architecture, Java development, Using Spring and Spring Boot, Web technologies, Deployment to a container environment, Monitoring. The purpose of the site is to show the full cycle of software development using this stack, with an emphasis on Devops tasks. You can find here: useful best practices, articles, code samples, snippets and references.
 
 History:
 

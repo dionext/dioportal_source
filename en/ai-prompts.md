@@ -436,7 +436,7 @@ A simple sketch illustration of \[INSERT CUSTOM SCENE DESCRIPTION HERE\]. The li
 
   1) Оставь текст вне квадратных скобок \[INSERT CUSTOM SCENE DESCRIPTION HERE\] неизменным.
   2) Замени текст внутри квадратных скобок \[INSERT CUSTOM SCENE DESCRIPTION HERE\] на описание сцены с участием человека или персонажа, которое я тебе напишу или попрошу придумать.
-  3) Имей ввиду, что иллюстрации у нас черно-белые (об этом сказано в промпте)
+  3) Имей в виду, что иллюстрации у нас черно-белые (об этом сказано в промпте)
   4) Не используй в иллюстрациях "текст", то есть никаких табличек, знаков и т.п.
   5) Эта фраза всегда должна быть в начале: A simple sketch illustration of
   6) Эта фраза всегда должна быть в конце: The lines are slightly uneven and hand-drawn, giving a warm, organic feel. The background is white. The illustration has minimalistic, slightly rough lines and is black and white.

@@ -90,7 +90,7 @@ https://192.168.1.116:9443/
 https://community-scripts.org/scripts/ubuntu
 
 https://community-scripts.org/scripts/openwebui 
-(включает ollama, но она почему то не установилась. Пришлось настроить подключение к другому контейнеру )
+(включает ollama, но она почему-то не установилась. Пришлось настроить подключение к другому контейнеру )
 http://192.168.1.152:8080/
 
 https://community-scripts.org/scripts/ollama

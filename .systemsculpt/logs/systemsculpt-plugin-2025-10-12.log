@@ -1,0 +1,51 @@
+{"timestamp":"2025-10-12T15:26:19.123Z","level":"info","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"cache.vaultFile.initialize","id":17,"durMs":1.199999988079071}}}
+{"timestamp":"2025-10-12T15:26:19.469Z","level":"info","message":"Directory manager initialized","context":{"source":"SystemSculptPlugin"}}
+{"timestamp":"2025-10-12T15:26:19.469Z","level":"info","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"directories.initialize","id":16,"durMs":347.89999997615814}}}
+{"timestamp":"2025-10-12T15:26:19.469Z","level":"info","message":"init:milestone","context":{"source":"InitializationTracer","metadata":{"milestone":"critical-parallel-tasks","statuses":["fulfilled","fulfilled","fulfilled"]}}}
+{"timestamp":"2025-10-12T15:26:19.469Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"ui.basic.initialize","id":19,"slowMs":1000,"timeoutMs":9000}}}
+{"timestamp":"2025-10-12T15:26:19.470Z","level":"info","message":"Primary UI components ready","context":{"source":"SystemSculptPlugin"}}
+{"timestamp":"2025-10-12T15:26:19.470Z","level":"info","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"ui.basic.initialize","id":19,"durMs":0.9000000357627869}}}
+{"timestamp":"2025-10-12T15:26:19.470Z","level":"info","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"init.critical","id":11,"durMs":661}}}
+{"timestamp":"2025-10-12T15:26:19.470Z","level":"warn","message":"init:slow-done","context":{"source":"InitializationTracer","metadata":{"phase":"init.deferred.awaitCritical","id":10,"durMs":665.6999999880791,"sinceLoadMs":685.2,"slowMs":250}}}
+{"timestamp":"2025-10-12T15:26:19.471Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"init.deferred.schedule","id":20,"slowMs":150,"timeoutMs":1500}}}
+{"timestamp":"2025-10-12T15:26:19.471Z","level":"debug","message":"Starting file context menu service after critical initialization","context":{"source":"SystemSculptPlugin"}}
+{"timestamp":"2025-10-12T15:26:19.471Z","level":"info","message":"File context menu service started","context":{"source":"FileContextMenuService","metadata":{"layoutReady":true}}}
+{"timestamp":"2025-10-12T15:26:19.471Z","level":"info","message":"File context menu integration ready","context":{"source":"SystemSculptPlugin"}}
+{"timestamp":"2025-10-12T15:26:19.471Z","level":"info","message":"init:milestone","context":{"source":"InitializationTracer","metadata":{"milestone":"file-context-menu-ready"}}}
+{"timestamp":"2025-10-12T15:26:19.473Z","level":"debug","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"init.deferred.schedule","id":20,"durMs":2.800000011920929,"scheduledDelayMs":2.8,"sinceLoadMs":688.3}}}
+{"timestamp":"2025-10-12T15:26:19.473Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"init.deferred","id":21,"slowMs":5000,"timeoutMs":30000}}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"services.remaining.initialize","id":22,"slowMs":1500,"timeoutMs":12000}}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"debug","message":"Awaiting critical initialization before remaining services","context":{"source":"SystemSculptPlugin"}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"services.transcription","id":23,"slowMs":600,"timeoutMs":5000}}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"debug","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"services.transcription","id":23,"durMs":0.09999996423721313,"service":"transcription service"}}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"services.recorder","id":24,"slowMs":600,"timeoutMs":5000}}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"debug","message":"RecorderService instantiated","context":{"source":"RecorderService","metadata":{"initializedDuringEnsure":true}}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"debug","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"services.recorder","id":24,"durMs":0.19999998807907104,"service":"recorder service"}}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"services.fileContextMenu","id":25,"slowMs":600,"timeoutMs":5000}}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"debug","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"services.fileContextMenu","id":25,"durMs":0,"service":"file context menu service"}}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"info","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"services.remaining.initialize","id":22,"durMs":0.5,"failures":0}}}
+{"timestamp":"2025-10-12T15:26:19.474Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"managers.initialize","id":26,"slowMs":1500,"timeoutMs":12000}}}
+{"timestamp":"2025-10-12T15:26:19.475Z","level":"info","message":"Managers initialized","context":{"source":"SystemSculptPlugin","metadata":{"managers":["LicenseManager","ResumeChatService","ViewManager","CommandManager"]}}}
+{"timestamp":"2025-10-12T15:26:19.475Z","level":"info","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"managers.initialize","id":26,"durMs":1,"managers":["LicenseManager","ResumeChatService","ViewManager","CommandManager"]}}}
+{"timestamp":"2025-10-12T15:26:19.475Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"license.initialize","id":27,"slowMs":1200,"timeoutMs":12000}}}
+{"timestamp":"2025-10-12T15:26:19.475Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"preload.background","id":28,"slowMs":400,"timeoutMs":4000}}}
+{"timestamp":"2025-10-12T15:26:19.475Z","level":"debug","message":"Background preload completed","context":{"source":"SystemSculptPlugin"}}
+{"timestamp":"2025-10-12T15:26:19.475Z","level":"debug","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"preload.background","id":28,"durMs":0}}}
+{"timestamp":"2025-10-12T15:26:19.475Z","level":"info","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"license.initialize","id":27,"durMs":0.09999996423721313}}}
+{"timestamp":"2025-10-12T15:26:19.475Z","level":"info","message":"License validation completed","context":{"source":"SystemSculptPlugin"}}
+{"timestamp":"2025-10-12T15:26:19.475Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"views.restore","id":29,"slowMs":1200,"timeoutMs":6000}}}
+{"timestamp":"2025-10-12T15:26:19.476Z","level":"debug","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"views.restore","id":29,"durMs":0.10000002384185791}}}
+{"timestamp":"2025-10-12T15:26:19.476Z","level":"info","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"init.deferred","id":21,"durMs":2.100000023841858}}}
+{"timestamp":"2025-10-12T15:26:28.816Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"updates.check.execute","id":30,"slowMs":6000,"timeoutMs":30000}}}
+{"timestamp":"2025-10-12T15:26:32.120Z","level":"debug","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"updates.check.execute","id":30,"durMs":3303.599999964237}}}
+{"timestamp":"2025-10-12T15:27:12.418Z","level":"debug","message":"Active leaf change handled","context":{"source":"SystemSculptPlugin","metadata":{"filePath":"en/documentation.md","hasLeaf":true}}}
+{"timestamp":"2025-10-12T15:28:15.910Z","level":"debug","message":"Active leaf change handled","context":{"source":"SystemSculptPlugin","metadata":{"filePath":null,"hasLeaf":true}}}
+{"timestamp":"2025-10-12T15:28:16.165Z","level":"debug","message":"Active leaf change handled","context":{"source":"SystemSculptPlugin","metadata":{"filePath":"en/documentation.md","hasLeaf":true}}}
+{"timestamp":"2025-10-12T16:21:14.399Z","level":"debug","message":"Active leaf change handled","context":{"source":"SystemSculptPlugin","metadata":{"filePath":null,"hasLeaf":true}}}
+{"timestamp":"2025-10-12T16:24:40.634Z","level":"debug","message":"Active leaf change handled","context":{"source":"SystemSculptPlugin","metadata":{"filePath":"en/documentation.md","hasLeaf":true}}}
+{"timestamp":"2025-10-12T16:24:40.704Z","level":"debug","message":"Active leaf change handled","context":{"source":"SystemSculptPlugin","metadata":{"filePath":"en/documentation.md","hasLeaf":true}}}
+{"timestamp":"2025-10-12T16:24:43.002Z","level":"debug","message":"Active leaf change handled","context":{"source":"SystemSculptPlugin","metadata":{"filePath":"en/documentation.md","hasLeaf":true}}}
+{"timestamp":"2025-10-12T16:51:27.635Z","level":"info","message":"File context menu service stopped","context":{"source":"FileContextMenuService"}}
+{"timestamp":"2025-10-12T16:51:27.645Z","level":"info","message":"init:start","context":{"source":"InitializationTracer","metadata":{"phase":"plugin.onunload","id":31,"slowMs":1000,"timeoutMs":10000}}}
+{"timestamp":"2025-10-12T16:51:27.646Z","level":"info","message":"init:done","context":{"source":"InitializationTracer","metadata":{"phase":"plugin.onunload","id":31,"durMs":0.5999999642372131}}}
+{"timestamp":"2025-10-12T16:51:27.646Z","level":"info","message":"SystemSculpt plugin unloaded","context":{"source":"SystemSculptPlugin"}}

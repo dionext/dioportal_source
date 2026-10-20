@@ -38,4 +38,4 @@ https://en.wikipedia.org/wiki/Fear_of_missing_out **Fear of missing out** (**FO
 - Blindly automate the wrong things
 https://medium.com/@deepikakamboj/context-poisoning-in-ai-first-software-delivery-a-developers-perspective-25f9ad9eb68d
 
-**Skils** AI agent skills are specialized instructions, scripts, and context (often in `SKILL.md` format) that enable AI models to perform specific, high-accuracy tasks like coding, data analysis, or workflow automation. These capabilities allow agents to move beyond general knowledge, using domain-specific expertise to execute complex, multi-step actions.
+**Skills** AI agent skills are specialized instructions, scripts, and context (often in `SKILL.md` format) that enable AI models to perform specific, high-accuracy tasks like coding, data analysis, or workflow automation. These capabilities allow agents to move beyond general knowledge, using domain-specific expertise to execute complex, multi-step actions.

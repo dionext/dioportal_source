@@ -247,7 +247,7 @@ https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF
 
 * [https://www.youtube.com/watch?v=1y0lreLW1vA\&t=0s](https://www.youtube.com/watch?v=1y0lreLW1vA&t=0s) MINDMAP-AI канал автора [https://www.youtube.com/@MrDewiar/videos](https://www.youtube.com/@MrDewiar/videos) ТВОРИ как БОГ: ИИ рисует за тебя схемы, графики и диаграммы! (Революция в мозговом штурме)
   на базе draw.io - [https://dewiar.com/mindmap-ai](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2xYU1RMV09KQjNIT19mVERxal9MYU1lQ0ZPd3xBQ3Jtc0tsX3d3RDdYcGsydENGVWh2OTFiUElUbC1jbmVjaWVKenUtMHdCcVpTZ1FpWmVpYURwemZLTURXdE4xWTlhUG5rTE5tVHd6WjRmdnpRd1JZZ29RQklnNTBQUlBiQ0NaSGdSWHR3eWJKMk1Tc2dldGRiTQ&q=https%3A%2F%2Fdewiar.com%2Fmindmap-ai&v=1y0lreLW1vA) [https://www.youtube.com/watch?v=NlZxSyy8xAA](https://www.youtube.com/watch?v=NlZxSyy8xAA) общее описание проекта
-* {#id43}платный проект. Есть возможность сравнивати нейровсети -ARENA [https://www.youtube.com/watch?v=7pauSTFXOKo](https://www.youtube.com/watch?v=7pauSTFXOKo)
+* {#id43}платный проект. Есть возможность сравнивать нейросети -ARENA [https://www.youtube.com/watch?v=7pauSTFXOKo](https://www.youtube.com/watch?v=7pauSTFXOKo)
 
 ### Coze
 

@@ -1,14 +1,9 @@
-# Игнорируем кэш рабочего пространства и состояние интерфейса (главный источник конфликтов)
 .obsidian/workspace
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
-
-# Игнорируем служебные данные плагина obsidian-git
 .obsidian-git-data
 
-# Системный мусор
 .trash/
 .DS_Store
 Thumbs.db
-.obsidian/workspace.json
