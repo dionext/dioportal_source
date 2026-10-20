@@ -8,7 +8,8 @@ aliases:
   - "architecture-microservices"
 ---
 
-# Microservices
+
+# Microservices
 
 ## Microservices vs monolith
 
@@ -29,6 +30,8 @@ Disadvantages of microservice architecture:
 * Complex testing. In a monolith, you have everything connected: you have compiled and ensured that one part of the subsystem, at least at the contract level, communicates with another part of the subsystem. In a microservices architecture, you have to verify through integration tests that contracts are respected.
 * Complicated maintenance. Each of the services needs to be monitored independently: a service may hit a memory limit, communication with another service may be interrupted and not automatically restored, there may be memory leaks, deadlocks, etc. The process of maintaining your solution becomes much more complicated
 * Integrity of contracts and data. Each microservice works with its own storage, the data is not integrated with each other: there is no foreign key, and, accordingly, it is much more difficult to maintain data integrity. Since each of the services can be developed independently (an advantage), it can also be changed independently your contract. It's good if we notice this during integration testing. It's worse if we notice this in production.
+
+https://www.youtube.com/watch?v=5A7ncMHfB1g (ru) Why Microservices Can Ruin You, But a Monolith Can Save You | Vladimir Ivanov
 
 ## SPOF
 

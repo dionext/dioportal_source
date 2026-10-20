@@ -8,7 +8,8 @@ aliases:
   - "java-spring-jpa"
 ---
 
-# Spring: {\#id4}JPA, Hibernate, Working with databases
+
+# Spring: JPA, Hibernate, Working with databases
 
 ## JDBC
 

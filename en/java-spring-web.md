@@ -8,7 +8,8 @@ aliases:
   - "java-spring-web"
 ---
 
-## Spring controller mapping rules
+
+## Spring controller mapping rules
 
 Some example patterns:
 
@@ -81,7 +82,8 @@ Spring Boot uses the /error path to create a page that displays all global error
 
 Error responses should include a general HTTP status code, a message to the developer, a message to the end user (if necessary), an internal error code (corresponding to a specific internal identifier), links where developers can find additional information. For example:
 
-    {
+```json
+{
       "status" : 400,
       "developerMessage" : "Verbose, plain language description of the problem. Provide developers
        suggestions about how to solve their problems here",
@@ -89,7 +91,8 @@ Error responses should include a general HTTP status code, a message to the deve
       "errorCode" : "444444",
       "moreInfo" : "http://www.example.gov/developer/path/to/help/for/444444,
        http://drupal.org/node/444444",
-    }
+}
+```
 
 Use three simple, common response codes to indicate (1) success, (2) failure due to a client-side issue, (3) failure due to a server-side issue:  
 200 - OK Error 400, invalid request internal server error 500
@@ -138,9 +141,9 @@ In addition to substituting values into attributes, it is possible to substitute
 
 ### References
 
-### [https://www.youtube.com/watch?v=tVQ8w0Rk\_II 34. Thymeleaf. Spring WEB и Spring Boot 3 (Java Enterprise - полный курс) JavaGuru](https://www.youtube.com/watch?v=tVQ8w0Rk_II)
+ [https://www.youtube.com/watch?v=tVQ8w0Rk\_II 34. Thymeleaf. Spring WEB и Spring Boot 3 (Java Enterprise - полный курс) JavaGuru](https://www.youtube.com/watch?v=tVQ8w0Rk_II)
 
-### [https://www.youtube.com/watch?v=eqzgTo-YMaU 35. Filtering, Pagination, Validation. Spring Boot 3 (Java Enterprise - полный курс)](https://www.youtube.com/watch?v=eqzgTo-YMaU)
+ [https://www.youtube.com/watch?v=eqzgTo-YMaU 35. Filtering, Pagination, Validation. Spring Boot 3 (Java Enterprise - полный курс)](https://www.youtube.com/watch?v=eqzgTo-YMaU)
 
 ## JTE Template Engine
 

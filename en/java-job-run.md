@@ -8,7 +8,8 @@ aliases:
   - "java-job-run"
 ---
 
-# Running Job in Java
+
+# Running Job in Java
 
 ## Simple Threads
 

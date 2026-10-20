@@ -8,7 +8,8 @@ aliases:
   - "internet-protocols"
 ---
 
-# Internet protocols
+
+# Internet protocols
 
 ## Overview
 
@@ -31,6 +32,8 @@ Key generation ssh-keygen [https://linux.die.net/man/1/ssh-keygen](https://linux
 ```bash
 ssh-keygen -t rsa -q -N '' -f ~/.ssh/id_rsa
 ```
+
+where "id_rsa" - name of key file 
 
 or with default
 
@@ -150,6 +153,8 @@ If the site is owned by a company, there may be several options:
 Free DV certificates are issued by the **Let's Encrypt** trusted authority.
 
 [https://letsencrypt.org/ru/getting-started/](https://letsencrypt.org/ru/getting-started/)
+
+See [[nginx]]
 
 ## Host Windows
 

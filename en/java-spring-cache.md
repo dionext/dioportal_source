@@ -8,7 +8,8 @@ aliases:
   - "java-spring-cache"
 ---
 
-## Spring: Cache
+
+## Spring: Cache
 
 ## Overview
 

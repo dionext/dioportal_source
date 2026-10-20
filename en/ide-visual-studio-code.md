@@ -8,7 +8,8 @@ aliases:
   - "ide-visual-studio-code"
 ---
 
-# {\#id5}Visual Studio Code
+
+# {\#id5}Visual Studio Code
 
 ## Overview
 
@@ -33,6 +34,8 @@ CMD for launching on weak computers: --disable-gpu
 * NuGet Package Manager
 * Visual Studio IntelliCode
 * Spring Boot Extension Pack VMware
+
+Whisper Assistant https://marketplace.visualstudio.com/items?itemName=MartinOpenSky.whisper-assistant (VS Code - ok, Cursor - ? )
 
 ## Dev Containers
 

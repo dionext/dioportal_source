@@ -10,10 +10,16 @@ aliases:
 
 
 # AI. Local model run
+## Small model quick reference 
 
+https://ollama.com/library/mistral 
+mistral:7b  4.4GB   32K    Text
+(не походит для Hermes)
+
+https://ollama.com/library/gemma4:12b
+gemma4:12b  7.6GB 256K Text, Image
+ollama run gemma4:12b
 ## ollama
-
-Активно испаользуется в интеграции Spring AI
 
 [https://ollama.com](https://ollama.com)
 
@@ -28,13 +34,24 @@ aliases:
 
 рекомендуют GUI [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui)
 
-ссылка на видео:  
-https://youtu.be/J2pWl4UeSa4
+### Ollama's raw mode
 
-ссылка на проект:  
-https://github.com/ollama/ollama
+Ollama's raw mode is ==an API setting that **bypasses the built-in prompt template system**, disables system prompts, and ignores context==. You can turn it on by setting `"raw": true` in your API request to send exact, unformatted text strings directly to the model. 
 
-#### Инсталляция Windows
+How It Works
+
+- **No Templates:** Stops Ollama from wrapping your prompt in default chat tags or special formatting tokens.
+
+- **No Context:** Does not return or save conversation history context in the response.
+
+- **Full Control:** Lets you manage your own custom prompt structures and specific model tokens manually.
+When to Use It
+
+- **Advanced Prompting:** When you want total control over the exact text and tokens sent to the AI.
+
+- **Function Calling:** Useful for running specific model features—like with Mistral 0.3—that require custom raw text formatting.
+
+### Инсталляция Windows
 
 одной командой для виндовс:
 
@@ -78,78 +95,7 @@ OLLAMA\_HOST="0.0.0.0" ollama serve
 
 \[curl http://192.168.1.75:11434/api/generate -d '{ "model": "mistral", "prompt": "What is water made of?" }'\](../../../../dio\_documents/other/curl%20http:/192.168.1.75:11434/api/generate%20-d%20'{%20%22model%22:%20%22mistral%22,%20%22prompt%22:%20%22What%20is%20water%20made%20of?" }')
 
-#### Инсталляция Linux
-
-одной командой для линукс:
-
-curl -fsSL https://ollama.com/install.sh | sh  
-Where are models stored?
-
-* Linux: /usr/share/ollama/.ollama/models
-
-[https://translucentcomputing.github.io/kubert-assistant-lite/ollama.html https://github.com/ollama/ollama/blob/main/docs/linux.md](https://github.com/ollama/ollama/blob/main/docs/linux.md)
-
-#### Инсталляция Docker
-
-Вариант установки GUI с внедренной ollama: (через интерфейс работает, но апи не доступно -p 11434:11434 - не помогает)
-
-docker run -d -p 3000:8080 -v ollama:/root/.ollama -v /mnt/ai/open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
-
-docker run -d --network=host -v ollama:/root/.ollama -v /mnt/ai/open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
-
-Вариант отдельной установки
-
-docker run -d -v /mnt/ai/ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
-
-docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v /mnt/ai/open-webui-single:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
-
-(установить c помощью докер:  
-docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main)
-
-docker run -d -p 3000:8080 -e OLLAMA\_BASE\_URL=https://example.com -v /mnt/ai/open-webui-single:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
-
-#### Инсталляция дополнительного?
-
-установить visual build tools:
-
-https://visualstudio.microsoft.com/visual-cpp-build-tools/
-
-установить гит:
-
-https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe
-
-установить python 3.11:
-
-https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe
-
-установить node js:
-
-https://nodejs.org/en
-
-установить bun:
-
-powershell -c "irm bun.sh/install.ps1|iex"
-
-запустить в powershell установку open-webui:
-
-git clone https://github.com/open-webui/open-webui.git  
-cd open-webui/
-
-# Copying required .env file
-
-cp -RPp example.env .env
-
-# Building Frontend Using Node
-
-npm i  
-npm run build
-
-# Serving Frontend with the Backend
-
-cd ./backend  
-pip install -r requirements.txt -U
-
-#### Комманды
+### Комманды
 
 pulling model:
 
@@ -168,9 +114,29 @@ List which models are currently loaded
 ollama ps
 ```
 
+## [
+
+](https://www.youtube.com/ "Главная страница YouTube")SE
+
+[
+
+](https://www.youtube.com/ "Главная страница YouTube")
+
+### ComfyUI
+
+ComfyUI https://www.comfy.org/ Crafting the next frontier of  visual and audio media
+We maintain ComfyUI and supporting tools like ComfyUI Manager, custom node registry, frontend, cli, automated CI/CD, and public documentation. https://www.runcomfy.com/ru 
+
+https://www.youtube.com/watch?v=-R0q_NJWDmI SE
+ComfyUI без боли: бесплатные AI-видео на своём ПК с помощью Codex и Minimax H3 
 ## Other tools
 
 [https://jan.ai/](https://jan.ai/) Chat with AI without privacy concerns Jan is an open source ChatGPT-alternative that runs 100% offline.
+
+https://msty.app/  # The easiest way to use local and online AI models. Without Msty: painful setup, endless configurations, confusing UI, Docker, command prompt, multiple subscriptions, multiple apps, chat paradigm copycats, no privacy, no control. With Msty: one app, one-click setup, no Docker, no terminal, offline and private, unique and powerful features.
+
+https://pinokio.computer/ Install, Run & Control Databases on Your Computer with 1 Click. Pinokio is a browser that lets you install, run, and manage ANY server application, locally.
+
 
 ## Economy, efficiency calculations
 

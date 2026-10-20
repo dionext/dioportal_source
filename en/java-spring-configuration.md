@@ -8,7 +8,8 @@ aliases:
   - "java-spring-configuration"
 ---
 
-# Spring: {\#id1}Configuration
+
+# Spring: {\#id1}Configuration
 
 ## Properties Configuration
 

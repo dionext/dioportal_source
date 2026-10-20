@@ -8,7 +8,8 @@ aliases:
   - "docker"
 ---
 
-# Docker
+
+# Docker
 
 ## Overview
 
@@ -243,6 +244,9 @@ See [Docker compose](docker-compose)
 
 See [Docker Swarm](docker-swarm)
 
+## Utils
+
+http://youtube.com/watch?v=Rmly6m1kuBw (ru) Hidden Docker Features in 2025: Game-Changing Tools ( lazydocker,  dive - [https://github.com/wagoodman/dive], wathctower - [https://github.com/containrrr/watchtower])
 ## UI
 
 ### Portainer (CE - community edition)
@@ -265,6 +269,28 @@ docker stack deploy -c portainer-agent-stack.yml portainer
 [https://localhost:9443](https://localhost:9443)
 
 Upgrade: [https://docs.portainer.io/start/upgrade/swarm](https://docs.portainer.io/start/upgrade/swarm)
+
+Setup tocken 
+https://docs.portainer.io/faqs/installing/setup-token
+
+### dockhand
+https://dockhand.pro/
+https://www.youtube.com/watch?v=wr9I1PLoDLY 
+
+~~~
+```
+docker run -d \
+  --name dockhand \
+  --restart unless-stopped \
+  -p 3000:3000 \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v dockhand_data:/app/data \
+  fnsys/dockhand:latest
+```
+~~~
+
+**Не выбрано окружение (Environment) в интерфейсе**:  
+В правом верхнем углу интерфейса **Dockhand** нажмите на селектор окружений (**Environments**) и убедитесь, что выбрано активное локальное окружение (Local Docker socket), а не пустое или удаленное.
 
 ## References
 

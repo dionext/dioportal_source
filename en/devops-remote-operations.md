@@ -71,7 +71,13 @@ sudo vim /etc/pam.d/sshd
 ```
 sudo systemctl restart ssh
 ```
+## Port forwarding 
 
+Example 
+```
+ssh -N -L 18789:127.0.0.1:18789 root@YOUR_VPS_IP
+```
+Open: `http://127.0.0.1:18789/`
 ## Transfer files to the server
 
 ### Rsync

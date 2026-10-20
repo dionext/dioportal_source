@@ -8,7 +8,8 @@ aliases:
   - "devops-git"
 ---
 
-# Git
+
+# Git
 
 Git is a free, open-source, distributed version control system. It makes it easier to write code using distributed teams of developers. What makes it different from previous version control systems is its ability to perform common operations (branching, committing, etc.) on your local machine, without having to modify the main repository or even having write permissions to it.
 
@@ -18,11 +19,11 @@ git init
 
 Initial Git setup
 
-Specify the user name - git config --global user.name "John". Specifies the name of the user from whom commits will come.
+Specify the user name - **git config --global user.name "John"**. Specifies the name of the user from whom commits will come.
 
-Specify email - git config --global user.email "mail@gmail.com". Instead of mail@gmail.com you need to enter your email. Please note that it must match the one for which the account is registered in Github.
+Specify email - **git config --global user.email "mail@gmail.com"**. Instead of mail@gmail.com you need to enter your email. Please note that it must match the one for which the account is registered in Github.
 
-View settings - git config --list. The parameters can also be viewed in the configuration file, but this method is faster. git config -l --show-origin  
+View settings - **git config --list**. The parameters can also be viewed in the configuration file, but this method is faster. git config -l --show-origin  
 The --global option allows you to set the desired settings once, which Git will use for all repositories on your computer.
 
 Correct display of Native letters For those who use Windows with names for folders and files in Native, you need to run the command: git config --global core.quotepath off
@@ -48,6 +49,7 @@ git push The git push command is used to establish a connection with a remote re
 
 Create a repository - git init. Initializes an empty repository.
 
+
 ### Working with Remotes
 
 Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either read-only or read/write for you. [https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
@@ -67,6 +69,13 @@ Link remote and local repositories - git remote add origin \[link to remote repo
 
 View commit history - git log. Lists all commits. This command has different options, the most used one is  
 \--oneline. It shows the hash in a shortened format, the branch in which the commit was made, and the text of the commit. To use this option (like any other), you need to add it after the command: git log--oneline.
+
+## Git settings 
+
+safe.directory
+
+These config entries specify Git-tracked directories that are considered safe even if they are owned by someone other than the current user. This is a multi-valued setting, i.e. you can add more than one directory via `git` `config` `--add`. To reset the list of safe directories (e.g. to override any such directories specified in the system config), add a `safe.directory` entry with an empty value. 
+To completely opt-out of this security check, set `safe.directory` to the string `*`. This will allow all repositories to be treated as if their directory was listed in the `safe.directory` list. If `safe.directory=*` is set in system config and you want to re-enable this protection, then initialize your list with an empty value before listing the repositories that you deem safe. Giving a directory with `/*` appended to it will allow access to all repositories under the named directory.
 
 ## Github vs Gitlab
 

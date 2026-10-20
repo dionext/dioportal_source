@@ -29,11 +29,16 @@ Embendings leaderboard
 Open LLM Leaderboard  
 [https://huggingface.co/spaces/HuggingFaceH4/open\_llm\_leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
+https://lmarena.ai/ # Chatbot Arena (formerly LMSYS): Free AI Chat to Compare & Test Best AI Chatbots
+https://llmarena.ru/ (for ru models)
+
 Tests:  
 labs.perplexity [https://labs.perplexity.ai/](https://labs.perplexity.ai/)  
 H2o [https://gpt.h2o.ai/](https://gpt.h2o.ai/)  
 chatarena [https://chat.lmsys.org/?arena](https://chat.lmsys.org/?arena)
 
+
+https://www.youtube.com/watch?v=OMXJIIrvfVE # Локальные LLM для кодинга на слабом ПК: что реально работает
 ## OpenAI. ChatGPT
 
 [https://openai.com/chatgpt/pricing/](https://openai.com/chatgpt/pricing/)
@@ -52,6 +57,7 @@ Plus For individuals looking to amplify their productivity Early access to new f
 
 [https://www.youtube.com/watch?v=CK0oj9Ktfec\&t=16s](https://www.youtube.com/watch?v=CK0oj9Ktfec&t=16s) Build anything with o1 agents - Here's how
 
+https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide 
 ## Anthropic Claude.AI
 
 Anthropic PBC is an American artificial intelligence (AI) public-benefit startup founded in 2021. It researches and develops AI to "study their safety properties at the technological frontier" and use this research to deploy safe, reliable models for the public. Anthropic has developed a family of large language models (LLMs) named Claude as a competitor to OpenAI's ChatGPT and Google's Gemini. Anthropic was founded by former members of OpenAI, including siblings Daniela Amodei and Dario Amodei. In September 2023, Amazon announced an investment of up to $4 billion, followed by a $2 billion commitment from Google in the following month
@@ -78,6 +84,10 @@ Considered a good but poorly advertised tool. Recommended for the humanities.
 
 [https://notebooklm.google/](https://notebooklm.google/) The ultimate tool for understanding the information that matters most to you, built with Gemini 1.5 Your Personalized AI Research Assistant **NotebookLM** (Google NotebookLM) is a research and note-taking online tool developed by [Google Labs](https://en.wikipedia.org/wiki/Google_Labs "Google Labs") that uses [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence "Artificial intelligence") (AI), specifically [Google Gemini](<https://en.wikipedia.org/wiki/Gemini_(chatbot)> "Gemini (chatbot)"), to assist users in interacting with their documents. It can generate summaries, explanations, and answers based on content uploaded by users. It also includes "Audio Overviews", which summarizes documents in a conversational, podcast-like format. The team building the product includes popular science author [Steven Johnson](<https://en.wikipedia.org/wiki/Steven_Johnson_(author)> "Steven Johnson (author)") and product manager Raiza Martin
 
+#### Limitations
+
+With NotebookLM, you get 100 notebooks, each with up to 50 sources (up to 500K words each), and daily limits of 50 chat queries, 3 audio generations, and 3 video generations
+
 ### Google LABs
 
 [https://www.youtube.com/watch?v=dTyzE9GmK\_Y](https://www.youtube.com/watch?v=dTyzE9GmK_Y) Экспериментальные проекты ИИ от Google, попробуйте бесплатно, пока они не исчезли... Смотрите здесь: [https://labs.google/experiments](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjBfbFJyNGltS2xZRjliS2F5NmZIX2pzVGhPd3xBQ3Jtc0tsTGlyUkdNQUVOQzJkQmUybXpYRXp4STg2WHdsQUo5RVJ0RzkwVkJqalgxRXJIVTdtc3dnRjNjWko4Y3pQTEloSER5b0M5elFZOEFja2xjbTVSTUs5UWx3bzFVUVRwckZkeVpfTnRJRXR6MDJGa2F3MA&q=https%3A%2F%2Flabs.google%2Fexperiments&v=dTyzE9GmK_Y)
@@ -87,6 +97,11 @@ Considered a good but poorly advertised tool. Recommended for the humanities.
 [https://codeassist.google/](https://codeassist.google/) (For Visual Studio Code)
 
 [https://www.youtube.com/watch?v=dGtMdl1fnz0](https://www.youtube.com/watch?v=dGtMdl1fnz0) (ru)
+
+### Gemini CLI
+
+Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal. It provides lightweight access to Gemini, giving you the most direct path from your prompt to our model.
+https://github.com/google-gemini/gemini-cli
 
 ### Programmable Search Engine
 
@@ -151,10 +166,40 @@ The promotional period for the deepseek-chat model has ended, and the pricing ha
 
 [https://chat.qwenlm.ai/](https://chat.qwenlm.ai/)
 
+https://www.youtube.com/watch?v=m4UI-75saKU (ru) How to use a neural network.
+https://secrets.tbank.ru/tehnologii/chto-takoe-qwen2-5/ (ru) What is Qwen2.5 and how to use it
+### WAN
+https://wan.video/ _Wan is an AI creative drawing platform_ under Alibaba, offering capabilities such as text-to-image, image editing, text-to-video, and image-to-video
+
+### Kimi
+
+https://www.kimi.com/ 
+
+### Xiaomi
+
+https://mimo.xiaomi.com/
+https://www.youtube.com/watch?v=Sbkfm3xOeDE
+
+https://platform.xiaomimimo.com/console/profile
+**Прямая оплата:** Российской картой **UnionPay** (как и картами «Мир», Visa или Mastercard, выпущенными в РФ) оплатить сервис **Xiaomi MiMo** напрямую **нельзя** из-за ограничений и санкций. 
+
+MiMo нейросеть берёт не столько бенчмарками, сколько ценой за токен. Если положить ценники за миллион токенов рядом, картина такая:
+
+- MiMo V2-Pro - около $1 и $3 за млн токенов (вход и выход), V2.5 после снижения ещё дешевле.
+    
+- DeepSeek - сопоставимо, та же «дешёвая лига».
+    
+- Claude и ChatGPT в премиум-моделях - в несколько раз дороже за млн токенов.
+    
+- Gemini - середина по цене.
+    
+
+По открытым тестам MiMo-V2.5 держится рядом с DeepSeek и подбирается к Gemini, оставаясь дешевле в эксплуатации. Поэтому MiMo нейросеть и называют «Opus для экономных»: на массовой генерации, парсинге и агентских задачах экономия на дистанции огромная. Где MiMo пока проигрывает - это экосистема: у ChatGPT и Gemini больше готовых интеграций и приложений из коробки.
 ### Others
 
 [https://www.youtube.com/watch?v=Ci8Eprr2Gok](https://www.youtube.com/watch?v=Ci8Eprr2Gok) (ru) [05:00](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=300s) - обзор Qwen от Alibaba [https://chat.qwenlm.ai/](https://chat.qwenlm.ai/) [08:20](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=500s) - Talkie [https://www.talkie-ai.com/ru](https://www.talkie-ai.com/ru) [11:00](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=660s) - Kling for video and images [https://klingai.com/](https://klingai.com/) [14:20](https://www.youtube.com/watch?v=Ci8Eprr2Gok&t=860s) - Vidu for content creation [https://www.vidu.com/](https://www.vidu.com/)
 
+https://manus.im/ Manus is a general AI agent that bridges minds and actions: it doesn't just think, it delivers results. Manus excels at various tasks in work and life, getting everything done while you rest.
 ## Russian models
 
 ### YandexGPT
@@ -175,6 +220,13 @@ The promotional period for the deepseek-chat model has ended, and the pricing ha
 
 [https://docs.cohere.com/docs/command-r](https://docs.cohere.com/docs/command-r)
 
+## LLM без цензуры
+https://www.youtube.com/watch?v=VCBB732bdvQ # LLM без цензуры. Зачем?
+
+https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF 
+
+Облитерированные LLM (или аблитерированные модели, от англ. Abliterated LLMs) — это большие языковые модели, из которых техническим путем удалена цензура и склонность к отказам (refusal behavior). Слово произошло от скрещивания медицинского/физического термина obliteration (стирание, уничтожение) и ИИ-термина ablation (абляция — удаление отдельных компонентов нейросети).
+
 ## Models for Embedding
 
 * The following embedding models can be used within the application and with the Embed4All class from the gpt4all Python library. The default context length as GGUF files is 2048 but can be [extended](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF#description).
@@ -186,7 +238,7 @@ The promotional period for the deepseek-chat model has ended, and the pricing ha
 
 ## Proxy Services intermediaries for access to LLMs
 
-### Merlin AI (Chrome extension)
+### Merlin AI (+Chrome extension)
 
 * [https://www.getmerlin.in/](https://www.getmerlin.in/ru/chat?onboarding=true)
 * There are negative reviews from users
@@ -199,9 +251,39 @@ The promotional period for the deepseek-chat model has ended, and the pricing ha
 
 ### Coze
 
-* [https://www.coze.com/](https://www.coze.com/) Coze: Connect AI to Your Apps Latest AI app development platform Build your agents without code and release them across multiple platforms with ready {#id45}
+* [https://www.coze.com/](https://www.coze.com/) Coze: Connect AI to Your Apps Latest AI app development platform Build your agents without code and release them across multiple platforms with ready 
+
+### Openrouter.ai
+https://openrouter.ai/
+pricing https://openrouter.ai/models 
+ranking https://openrouter.ai/rankings 
+
+### anymodel.org
+https://anymodel.org/
 
 ### Other
 
 * [https://app.chathub.gg/](https://app.chathub.gg/)
 * [https://www.edenai.co/](https://www.edenai.co/) (proxy)
+* https://syntx.ai/ 
+
+
+# Local Proxy
+
+## LiteLLM
+
+https://www.litellm.ai/ 
+https://www.youtube.com/watch?v=CAsn4g-mGdo   
+LiteLLM - ПРОКСИ ДЛЯ ТВОИХ LLM! ЗАЧЕМ? И ЧТО ОН ДАЕТ?
+
+## OmniRoute
+OmniRoute is ==a free, MIT-licensed, self-hosted open-source AI gateway== that consolidates hundreds of AI models and providers into a single OpenAI-compatible endpoint (`http://localhost:20128/v1`).
+
+Key Features
+
+- **Massive Provider & Model Pool:** Connects to 290+ to 375+ total providers (including 90+ free-tier and 40+ keyless/free-forever options) and 1,200+ to 1,400+ models like Claude, GPT, Gemini, DeepSeek, and Kimi. 
+- **Quota-Aware Auto-Fallback:** Automatically cascades across paid subscriptions, API keys, and free tiers when a provider hits rate limits, throttles, or experiences downtime. 
+- **Combo System & Routing Strategies:** Lets you build named model chains using 13 different routing strategies (such as cost-optimized, P2C load balancing, weighted splits, and random selection). 
+- **Token Compression:** Uses integrated compression engines (like RTK and Caveman) to trim structural noise and save 15% to 95% on eligible tokens. 
+- **Tool Compatibility:** Works seamlessly with coding assistants and clients like Claude Code, Cursor, GitHub Copilot, Codex CLI, Cline, and OpenCode. 
+- **Local Privacy:** Runs locally on your machine via SQLite storage, encrypted credentials, and zero required external telemetry or sign-ups

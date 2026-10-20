@@ -8,7 +8,8 @@ aliases:
   - "os-linux"
 ---
 
-# OS Linux
+
+# OS Linux
 
 ## Versions
 
@@ -108,6 +109,16 @@ setting a password (and actually activating) root
 
 sudo passwd root
 ```
+
+**Enabling Root via SSH**  
+If you need to log in as root remotely via SSH, follow these steps: 
+
+1. Edit the SSH configuration file:  
+    `sudo nano /etc/ssh/sshd_config`
+2. Find the line `PermitRootLogin` and change it to:  
+    `PermitRootLogin yes`
+3. Save the file and restart the SSH service:  
+    `sudo systemctl restart ssh`
 
 [https://andreyex.ru/linux/ponimanie-fajla-etc-shadow/](https://andreyex.ru/linux/ponimanie-fajla-etc-shadow/) How to check (password is encrypted). If the password field contains an asterisk ( \*) or exclamation mark ( !), the user will not be able to log in using password authentication. Other login methods, such as key-based authentication or switching to user, are still allowed
 
@@ -444,7 +455,7 @@ pstree displays a tree of processes (useful for counting identical processes)
 
 An alternative to ps is the top command, which conveniently displays constantly updated information on the screen, but top is limited by the size of the window, so anything that cannot fit on the screen is simply ignored.
 
-# top -p 897110
+ top -p 897110
 
 kill - "kill" the process. First, determine the PID of your "killed" process using ps.  
 killall \<program\_name\> - "kill" all processes by program name.
@@ -495,6 +506,10 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 ```
 
 And this to re-enable it: `sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target`
+
+### Terminal 
+
+tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
 
 ### Long processes through "screen"
 
@@ -666,7 +681,23 @@ View mounted
 cat /etc/fstab view automount
 ```
 
+## Network
+
+### Testing internet connection 
+#### ping 
+ping -c 4 google.com
+ping 8.8.8.8
+
+#### Get External IP address
+curl ifconfig.me
 ## Monitoring
+
+```bash
+top
+
+htop 
+```
+
 
 ### Memory
 

@@ -8,7 +8,8 @@ aliases:
   - "index"
 ---
 
-# Software development notes
+
+# Software development notes
 
 We have collected a number of notes on full stack programming development. Our collection does not pretend to cover the all of topics and depth of immersion in each specific topic. We compensate for this with a large number of links to sources of information. However, our site can be used as a reminder and also as an overview guide to the technology stack for one of the software development options.
 
@@ -40,6 +41,7 @@ We have collected a number of notes on full stack programming development. Our c
     * [Spring: Advanced](java-spring-advanced)
   * Web development {#web}
     * [Internet protocols](internet-protocols)
+    * [[web-browsers]]
     * [HTML](web-html)
     * [CSS](web-css)
     * [Bootstrap](bootstrap) (CSS framework)
@@ -47,6 +49,7 @@ We have collected a number of notes on full stack programming development. Our c
     * [Integration with internet services](integration-with-internet-services)
     * [Frontend](frontend)
       * [React](frontend-react)
+  * [Mobile development](Mobile%20development.md) {#mobile}
   * Text, Media and Data (working with) {#texts}
     * [Working with text](working-with-text) (HTML, Markdown, etc.)
     * [Working with media](working-with-media) (images, video, etc.)
@@ -62,6 +65,7 @@ We have collected a number of notes on full stack programming development. Our c
   * [Devops](devops)
   * [Working with remote OS](devops-remote-operations) and Synchronization
   * [Linux](os-linux)
+  * [[os-windows]]
   * [Git](devops-git)
   * [Maven](devops-maven)
   * [Documentation. Notes](documentation)
@@ -76,6 +80,7 @@ We have collected a number of notes on full stack programming development. Our c
 * Maintenance. Service. Support{#maintenance}
   * [Logging](devops-logging)
   * [Monitoring](devops-monitoring)
+  * [Security](security)
 * AI (Artificial Intelligence)
   * [Glossary](ai-glossary)
   * [Prompts](ai-prompts)

@@ -8,7 +8,8 @@ aliases:
   - "frontend"
 ---
 
-# Frontend
+
+# Frontend
 
 ## Overview
 
@@ -113,6 +114,11 @@ See [https://www.youtube.com/watch?v=ocMOZpuAMw4](https://www.youtube.com/watch?
 
 See: [HTMX](frontend-htmx)
 
+## Other
+### Mantine 
+
+https://mantine.dev/ Build fully functional accessible web applications faster than ever – Mantine includes more than 120 customizable components and 70 hooks to cover you in any situation
+https://www.youtube.com/post/UgkxOnV7CGP_PLo7OGSvvIZRhvCguGKgDXw4   https://www.youtube.com/watch?v=r0uUJwyBJAc
 ## Approaches
 
 ### LocalFirst
@@ -142,3 +148,5 @@ Modern browsers will permit a script to connect to a WebSocket address without a
 ## References
 
 [https://www.youtube.com/watch?v=-57r5AARRgY](https://www.youtube.com/watch?v=-57r5AARRgY) Будущее фронтендовых приложений. От запросов, к движкам синхронизации / Андрей Ситник / #22
+
+https://www.youtube.com/watch?v=mmmmllrf3ws # Atomic CSS и Tailwind: отличный стек для масштабируемой вёрстки | Валентин Ульянов #37

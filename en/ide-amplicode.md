@@ -8,4 +8,5 @@ aliases:
   - "ide-amplicode"
 ---
 
-[https://amplicode.ru/](https://amplicode.ru/)
+
+[https://amplicode.ru/](https://amplicode.ru/)

@@ -8,7 +8,10 @@ aliases:
   - "ai-using-for-programming"
 ---
 
-# AI. Using for programming
+
+# AI. Using for programming
+
+![[Pasted image 20261019124411.png]]
 
 [https://www.youtube.com/watch?v=zfOG7YCn0bE](https://www.youtube.com/watch?v=zfOG7YCn0bE) Обзор ИИ инструментов для работы и учебы [00:39](https://www.youtube.com/watch?v=zfOG7YCn0bE&t=39s) Perplexity [02:43](https://www.youtube.com/watch?v=zfOG7YCn0bE&t=163s) Gamma AI [03:32](https://www.youtube.com/watch?v=zfOG7YCn0bE&t=212s) Yippity [04:03](https://www.youtube.com/watch?v=zfOG7YCn0bE&t=243s) MathGPT [04:38](https://www.youtube.com/watch?v=zfOG7YCn0bE&t=278s) GitHub Copilot [05:51](https://www.youtube.com/watch?v=zfOG7YCn0bE&t=351s) Fig и Warp [06:58](https://www.youtube.com/watch?v=zfOG7YCn0bE&t=418s) Documatic
 
@@ -19,6 +22,9 @@ aliases:
 [https://www.youtube.com/watch?v=x4Pe5LjUHKQ](https://www.youtube.com/watch?v=x4Pe5LjUHKQ) Is AI Coding ACTUALLY 10x Faster? \[REAL RESULTS\]
 
 [00:11:57](https://www.youtube.com/watch?v=adJwFliSJjA&t=717s) Devika [00:13:20](https://www.youtube.com/watch?v=adJwFliSJjA&t=800s) All-hands (open hands) [00:14:19](https://www.youtube.com/watch?v=adJwFliSJjA&t=859s) Github Workspaces [00:16:30](https://www.youtube.com/watch?v=adJwFliSJjA&t=990s) Replit.com [00:18:52](https://www.youtube.com/watch?v=adJwFliSJjA&t=1132s) Cursor Composer (Cursor бесплатно по 2 недели на аккаунт) [00:20:38](https://www.youtube.com/watch?v=adJwFliSJjA&t=1238s) Aider
+
+### Model choise 
+https://www.youtube.com/watch?v=mlxL-5Yk4fU  Which AI Model Should You Use for Coding?
 
 ### Cursor Composer
 
@@ -192,8 +198,129 @@ et started with the IBM watsonx Code Assistant: [https://obvs.ly/tech-with-tim](
 
 [https://www.youtube.com/watch?v=dGtMdl1fnz0](https://www.youtube.com/watch?v=dGtMdl1fnz0) (ru)
 
+
+### Kilo code 
+
+https://kilocode.ai/ Kilo **combines the best features** of AI coding tools. Batteries included. 
+It’s open-source, combines the best features from multiple tools, and provides direct access to cutting-edge AI models without any markup. _You pay what the AI providers charge, nothing more._
+
+Plugins for: VS Code, Idea, Cursor 
+
+**Start for free.** Then pay as you go. We don't take any commission.
+
+**Use any AI model.** 400+ hosted models, free models, local models.
+
+**Fully open source.** No lock-in. Use local models or BYOK.
+
+https://www.youtube.com/@Kilo-Code 
+
+Kilo Desktop
+The Kilo agent, now a desktop app for code and data. Run agents side by side in one window.
+
+### Qwen code 
+
+клон Gemini Cli
+
+npm install -g @qwen-code/qwen-code@latest
+https://github.com/QwenLM/qwen-code 
+https://www.youtube.com/watch?v=3o2jV_7nAiI   how to set in klio code  
+
+### Roocode 
+
+https://github.com/RooCodeInc/Roo-Code 
+
+ What Can Roo Code Do For YOU?
+
+- Generate Code from natural language descriptions and specs
+- Adapt with Modes: Code, Architect, Ask, Debug, and Custom Modes
+- Refactor & Debug existing code
+- Write & Update documentation
+- Answer Questions about your codebase
+- Automate repetitive tasks
+- Utilize MCP Servers
+
+Roo Code adapts to how you work:
+
+- Code Mode: everyday coding, edits, and file ops
+- Architect Mode: plan systems, specs, and migrations
+- Ask Mode: fast answers, explanations, and docs
+- Debug Mode: trace issues, add logs, isolate root causes
+- Custom Modes: build specialized modes for your team or workflow
+- Roomote Control: Roomote Control lets you remotely control tasks running in your local VS Code instance.
+
+ RIP Roo & Cursor: END OF AN ERA! https://www.youtube.com/watch?v=WfN9RhFqJCk 
+
+
+## Coderabbit
+
+https://docs.coderabbit.ai/code-editors
+Install the CodeRabbit VSCode extension to review code changes directly in your editor.
+
+Features
+
+Review uncommitted changes
+Get instant reviews on uncommitted code as you develop. Catch issues before you even commit, reducing PR comment noise by 80%.
+One-click fixes
+Apply simple suggested fixes instantly. Complex fixes get handed off to your AI agent with one click.
+Fix all
+New feature: Send all review comments and context to your coding agent at once for comprehensive fixes.
+AI agent integration
+Native integration with Copilot, Claude Code, Codex CLI, Cline, Roo, Kilo Code, Augment Code, plus clipboard fallback for any AI agent.
+Context-aware reviews
+Paid users with linked GitHub accounts get full context: learnings, tools, and 40+ contextual sources for comprehensive analysis.
+Detects coding agent files
+Automatically detects claude.md, Cursor rules, custom rules, and other coding agent files to apply your team’s standards to every review.
+
+Pricing: Free tier - Basic reviews with limited daily usage. Perfect for trying out the extension and light development work.
+
+## Codex CLI (OpenAI)
+https://developers.openai.com/codex/cli/ 
+
+Pair with Codex in your terminal
+
+Codex CLI is OpenAI’s coding agent that you can run locally from your terminal. It can read, change, and run code on your machine in the selected directory. It’s [open source](https://github.com/openai/codex) and built in Rust for speed and efficiency.
+
+Codex is included with ChatGPT Plus, Pro, Business, Edu, and Enterprise plans. Learn more about [what’s included](https://developers.openai.com/codex/pricing).
+
+https://www.youtube.com/watch?v=LmXa6y_YGi4 # Codex ЗАМЕНЯЕТ Claude Code? (честный разбор на AI-кодера от OpenAI)
+
+## BB
+https://getbb.app/ 
+https://www.youtube.com/watch?v=-hopeIl9QYY
+## PI 
+Pi (AI agent)
+
+https://pi.ai/
+
+Repository	github.com/earendil-works/pi
+Pi is an open-source artificial intelligence coding agent and agent harness developed by Earendil Works. It operates primarily through a terminal user interface and allows large language models to read, write, and modify source code and execute shell commands.[1] Pi is designed around a small extensible core and can be customized using TypeScript extensions, skills, prompt templates, themes, and packages.[
+
+# Java Spring 
+
+https://www.youtube.com/watch?v=LUyVgOhMsXI   
+Научи своего AI-агента писать код на Spring (Claude Code, Codex, Cursor, OpenCode, ...)
+Amplicode - это плагин для IntelliJ IDEA, GigaIDE и OpenIDE, который ускоряет и упрощает разработку на сервисов и web-приложений на Spring. А версия для VS CodeVS Code позволяет быстро создавать административный интерфейс на React Admin. ––––– Как установить Amplicode в IntelliJ IDEA / GigaIDE ––––– Инструкция – [https://amplicode.ru/download](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRS1lY1htYUxTWWdXSHlkTzJBdjlOc3xBSTVJdTV1UFJSSmVoOThRMGRGVWFHbU9NUkM2LXM1TDBIcnJFa1ZidHpTbGFheWx4QnRKdENOTlBjWVhySjJKZWpndTdyaGFWaWtkZUw3cDlMNVFNQWFjTXZqTUt6SnRvX2lT&q=https%3A%2F%2Famplicode.ru%2Fdownload&v=LUyVgOhMsXI) ––––– Как установить Amplicode в VS Code ––––– [https://amplicode.ru/download/#vscode](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSDd4R0ZEQ2FsVGhXSTRaSF9SY29aN3xBSTVJdTV1UTJTcG5DRy1vZ3BlYmZvTFRZUVlsbjJ2NmsxcG4wVEpadXlVMFU0S0t1TFZ0b2tNUVdjTzJzM183RVBHZ1IzNk1CQ3VWTDM3STFwWk9DNWprOTVXc3NzeGhaXzZN&q=https%3A%2F%2Famplicode.ru%2Fdownload%2F%23vscode&v=LUyVgOhMsXI) ––––– Amplicode в социальных сетях ––––– Сайт – [https://amplicode.ru](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRTY4cHRmZUdYMjdzN2dydEp5N2htOHxBSTVJdTV1NkVrdl80b2psQ0RPOF9LR1NMb2ZTRnptN0V2STl1LURiOU9PWXhUaHdXZWNqYzd4ekpvT2xPMjVTcmxkWl9rOXJzdmJhRFk0R1d0eGdsZlhMWlBOaEZTUWVoTTd2&q=https%3A%2F%2Famplicode.ru%2F&v=LUyVgOhMsXI) Telegram – [https://t.me/amplicode](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRU1YdjJ2UkoybGItam1wSUFWVXJONHxBSTVJdTV1bF9vc000Q0dJVzJpUEh1b1dVVnRkZ19ERnRKZTN0WWxwRU1RbDBXQzlsMTdvTTFyc0RfUWJBd0F1QS1iRWF3MkY3VzdZRS1RczB2WE15NnpJUU0wUUktTEdqYmhu&q=https%3A%2F%2Ft.me%2Famplicode&v=LUyVgOhMsXI) Telegram-чат – [https://t.me/amplicode_chat](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSHpuY001UF85alptWFg2cTF1RGtUV3xBSTVJdTVzZWZ5YzQxY1F5eGtpTkRXd1YzNndWT1l5UU5jOUpZVTFnNmJVa29MVWxydFVWMm9rSloxNVJSaUNpRnRTYWNjRXpTTkoyWXJsSUZUbGd2NmdiSndfT0NCcHg5bGxY&q=https%3A%2F%2Ft.me%2Famplicode_chat&v=LUyVgOhMsXI) YouTube –    [![](https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png) / @amplicode](https://www.youtube.com/channel/UCfsKxHtbTpPsfdyRZ9k34Sg)   VK – [https://vk.com/amplicode](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRktvWnJTLVNSbGMweXRPZnExUzFJa3xBSTVJdTV0UVBRbUgwNUQ1R00yZks1QXEtOU05Wmc3WExXYWFqTU55eVFnQmFTa0tWQ1cxRm0wb0VLRHdXOElfMzNiYUJoeGtWeEdEVXRWNEJNYnBycjBDMVBDTi1RYzdTaGpF&q=https%3A%2F%2Fvk.com%2Famplicode&v=LUyVgOhMsXI) RUTUBE – [https://rutube.ru/channel/36206107/](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljR0Z3YlppTWNxTUhlMG9YNm9sRC1wLXxBSTVJdTV1d2ZBeEtHWEhXMm0yUEw4SUlnc3RsTW9XZUdHenJoSkJiT3JNemxjR00yRVg3cE5qbVhWMHRqNUdJR0NIbnFXSzJXRXRlTVE3RGhPV3FtaUVMcGpJVXRwTVUwLWt5&q=https%3A%2F%2Frutube.ru%2Fchannel%2F36206107%2F&v=LUyVgOhMsXI) GitHub – [https://github.com/Amplicode/amplicode](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRl9JTTVtdHdNTU56azNqcVVGYk8za3xBSTVJdTVzdFA4M0RPSENUUDhtNktqU1dUMlBRZFJkWmplUFRYdW94SEExUllXbXNRajR3dGtCdFBvLTZlX2JjNDNMem9uRUZmVGxhVFZGV2xrUVJVeEJqVUxMZXp4dFpkck1q&q=https%3A%2F%2Fgithub.com%2FAmplicode%2Famplicode&v=LUyVgOhMsXI) Почта – info@amplicode.ru
+
+https://github.com/Amplicode/spring-skills
+
+# REA
+https://github.com/morluto/rea
+https://www.youtube.com/watch?v=5AhuSmReTOk
+
+Get REA from [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), or the [rea-agents npm package](https://www.npmjs.com/package/rea-agents). Follow the installation and release links from these official sources. A similar repository name or copied README does not establish that a download is official.
+## Other
+
+https://lovable.dev  Lovable is an AI software engineer, which enables anyone to build for the web. Simply chat to instantly build websites and web apps, with no technical knowledge needed.  On the free plan, you get 5 messages per day, with a total limit of 30 messages per month. Example: If you use all 5 messages every day for 6 days (30 messages total), you'll reach the monthly limit and won't be able to use any more messages until it resets at the end of the 1-month period.
+
+Lovable builds front-end using React, Tailwind & Vite, and can connect to OpenAPI backends. Support for data persistence and authentication is in alpha, using Supabase.[](https://docs.lovable.dev/#product-capabilities)
+
+https://www.rcode.dev/  # RCode is an IDE for R and Python - A user-friendly integrated development environment built for everyone
+
+
 ## References
 
 [https://www.youtube.com/watch?v=XbSTRweCcg8](https://www.youtube.com/watch?v=XbSTRweCcg8) Build Home Assistant Automations in Seconds! with AI
 
 [https://www.youtube.com/watch?v=J-vxmg\_kQVU](https://www.youtube.com/watch?v=J-vxmg_kQVU) (ru) Testing 13 BEST neural networks in a real developer task
+
+https://www.youtube.com/watch?v=wsMlA0ckdSk (ru) AI-BASE for programming in 2025 / Complete guide to AI development: theory, tools, examples

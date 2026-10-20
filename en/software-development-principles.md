@@ -8,7 +8,8 @@ aliases:
   - "software-development-principles"
 ---
 
-# Software development principles and rules {\#firstHeading}
+
+# Software development principles and rules {\#firstHeading}
 
 ## Programming principles
 
@@ -58,9 +59,14 @@ by Tim Peters
 * If the implementation is easy to explain, it may be a good idea.
 * Namespaces are one honking great idea -- let's do more of those!
 
+## Object-oriented programming (OOP)
+https://en.wikipedia.org/wiki/Object-oriented_programming Object-oriented programming (OOP) is a programming paradigm based on the concept of objects. Objects can contain data (called fields, attributes or properties) and have actions they can perform (called procedures or methods and implemented in code). In OOP, computer programs are designed by making them out of objects that interact with one another.
+
+https://www.youtube.com/watch?v=hkK8bvvz9OI (ru) "The Rise and Fall of the OOP"
 ## Glossary
 
 **Object-oriented programming**(OOP) is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another
+
 
 **Object--relational mapping** (ORM, O/RM, and O/R mapping tool) in computer science is a programming technique for converting data between a relational database and the heap of an object-oriented programming language. This creates, in effect, a virtual object database that can be used from within the programming language.
 

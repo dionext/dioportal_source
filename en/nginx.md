@@ -8,7 +8,8 @@ aliases:
   - "nginx"
 ---
 
-# Nginx
+
+# Nginx
 
 ## Overview
 
@@ -222,6 +223,155 @@ The conditions under which an upstream server is marked unavailable are defined 
 * fail\_timeout -- Sets the time during which a number of failed attempts must happen for the server to be marked unavailable, and also the time for which the server is marked unavailable (default is 10 seconds).
 * max\_fails -- Sets the number of failed attempts that must occur during the fail\_timeout period for the server to be marked unavailable (default is 1 attempt).
 
+## Admin tools 
+
+https://github.com/NginxProxyManager/nginx-proxy-manager 
+## Configuration with SSL , Certbot, Let's Encrypt
+
+### Quick setup 
+https://timeweb.cloud/docs/unix-guides/ustanovka-ssl-na-nginx 
+~~~
+sudo apt install certbot python3-certbot-nginx
+
+sudo certbot --nginx -d example.com -d www.example.com
+~~~
+
+### Custom setup with docker 
+
+https://ecostack.dev/posts/nginx-lets-encrypt-certificate-https-docker-compose/
+https://tokmakov.msk.ru/blog/item/778
+
+
+~~~ yaml
+version: '3.8'
+services:
+  nginx: 
+    image: nginx:1.29.0
+    container_name: nginx-prod
+    restart: always
+    volumes:
+      # nginx
+      - /mnt/devops/nginx/config/nginx.conf:/etc/nginx/nginx.conf:ro
+      # certbot
+      - /mnt/devops/certbot/www/:/var/www/certbot/:ro
+      - /mnt/devops/certbot/conf/:/etc/letsencrypt/:ro
+      # custom paths
+      - /mnt/disk2/sites:/etc/nginx/html:ro
+
+    ports:
+      - 80:80
+      - 443:443
+    #command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+    networks:
+      - nginx_network
+  certbot:
+    container_name: certbot
+    image: certbot/certbot:latest
+    volumes:
+      - /mnt/devops/certbot/www/:/var/www/certbot/:rw
+      - /mnt/devops/certbot/conf/:/etc/letsencrypt/:rw
+    networks:
+      - nginx_network
+  certbot-renew:
+    container_name: certbot-renew
+    image: certbot/certbot:latest
+    volumes:
+      - /mnt/devops/certbot/www/:/var/www/certbot/:rw
+      - /mnt/devops/certbot/conf/:/etc/letsencrypt/:rw
+    entrypoint: ["/bin/sh", "-c"]
+    command: ["while true; do certbot renew --webroot --webroot-path /var/www/certbot/ --quiet && sleep 12h; done"]
+    networks:
+      - nginx_network
+
+networks:
+  nginx_network:
+    name: mainnetwork
+    external: true
+~~~
+
+Example of config 
+~~~ nginx
+#########################
+# dionext.com
+#########################
+
+    #primary
+    server{
+		
+        listen 80;
+        server_name dionext.com www.dionext.com;
+
+		location /.well-known/acme-challenge/ {
+			root /var/www/certbot;
+		}
+
+		location / {
+			return 301 https://dionext.com$request_uri;
+		}
+
+    }
+	server {
+		listen 443 default_server ssl http2;
+		listen [::]:443 ssl http2;
+		
+		server_name dionext.com www.dionext.com;
+		
+		ssl_certificate /etc/letsencrypt/live/dionext.com/fullchain.pem;
+		ssl_certificate_key /etc/letsencrypt/live/dionext.com/privkey.pem;
+
+
+
+        location = / {
+            return 301 https://$host/en/index.htm;
+        }
+        location = /index.htm {
+            return 301 https://$host/en/index.htm;
+		}
+
+        location /images {
+            root   html/dioportal/input;
+        }
+        location /favicon.ico {
+            root   html/dioportal/input/images/favicon.ico;
+        }
+        location / {
+            resolver 127.0.0.11;
+            set $dioaddress dio-web:8082;
+            proxy_pass http://$dioaddress$request_uri;
+
+            #proxy_pass http://dio-production/dioportal/;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $remote_addr;
+            proxy_connect_timeout 120;
+            proxy_send_timeout 120;
+            proxy_read_timeout 180;
+           
+            index  index.html index.htm;
+        }
+	}
+~~~
+
+To start sertificate generation 
+
+For test 
+~~~ bash
+docker compose run --rm certbot certonly --webroot --webroot-path /var/www/certbot/ --dry-run -d dionext.com -d www.dionext.com
+~~~
+
+For real 
+~~~ bash
+docker compose run --rm certbot certonly --webroot --webroot-path /var/www/certbot/ -d dionext.com -d www.dionext.com
+~~~
+
+For information 
+~~~ bash
+docker compose run --rm certbot certificates
+~~~
+Renew test 
+~~~ bash
+docker compose run --rm  certbot renew --dry-run
+~~~
 ## References
 
 [https://stackoverflow.com/questions/3657614/how-to-rewrite-location-in-nginx-depending-on-the-client-browsers-languagev](https://stackoverflow.com/questions/3657614/how-to-rewrite-location-in-nginx-depending-on-the-client-browsers-languagev)

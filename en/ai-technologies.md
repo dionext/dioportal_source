@@ -8,7 +8,8 @@ aliases:
   - "ai-technologies"
 ---
 
-# AI. Technologies
+
+# AI. Technologies
 
 ### Low-rank adaptation (LoRA)
 
@@ -112,3 +113,40 @@ RE2 Prompting
 Q: {Input Query} Read the question again: {Input Query}
 
 While being so simple, RE2 is a general end effective technique that consistently enhances the reasoning performance of LLMs through just a rereading strategy. Furthermore, RE2 is compatible and can be combined with most thought-eliciting prompting methods, including [Chain-of-Thought (CoT)](https://learnprompting.org/docs/intermediate/chain_of_thought).
+
+# Skils
+
+https://agentskills.io/
+
+AI agent skills are specialized instructions, scripts, and context (often in `SKILL.md` format) that enable AI models to perform specific, high-accuracy tasks like coding, data analysis, or workflow automation. These capabilities allow agents to move beyond general knowledge, using domain-specific expertise to execute complex, multi-step actions.
+
+https://spring.io/blog/2026/01/13/spring-ai-generic-agent-skills 
+
+Agent Skills are modular capabilities packaged as Markdown files with `YAML frontmatter`. Each skill is a folder containing a `SKILL.md` file with metadata (`name` and `description`, at minimum) and instructions that tell an agent how to perform a specific task. Skills can also bundle scripts, templates, and reference materials. The frontmatter supports both simple string values and complex YAML structures (lists, nested objects) for advanced use cases.
+
+```
+my-skill/
+├── SKILL.md          # Required: instructions + metadata
+├── scripts/          # Optional: executable code
+├── references/       # Optional: documentation
+└── assets/           # Optional: templates, resources
+```
+
+Skills use **progressive disclosure** to manage context efficiently:
+
+1. **Discovery**: At startup, agents load only the name and description of each available skill, just enough to know when it might be relevant.
+2. **Activation**: When a task matches a skill's description, the agent reads the full `SKILL.md` instructions into context.
+3. **Execution**: The agent follows the instructions, optionally loading referenced files or executing bundled code as needed.
+
+This approach allows you to register hundreds of skills while keeping your context window lean.
+
+
+https://www.youtube.com/watch?v=KCcsKaZtyJ0 (ru) 
+
+## Skils Collection
+
+https://playbooks.com/  Skils Collection # Give your agents context to make them smarter Find agent skills and context
+https://skills.sh/ Skills are reusable capabilities for AI agents. Install them with a single command to enhance your agents with access to procedural knowledge.
+
+## Skills Security 
+https://github.com/cisco-ai-defense/skill-scanner 

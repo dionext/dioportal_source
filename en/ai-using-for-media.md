@@ -8,7 +8,8 @@ aliases:
   - "ai-using-for-media"
 ---
 
-# Using for Media (Arts, Images, Video, Design, etc.)
+
+# Using for Media (Arts, Images, Video, Design, etc.)
 
 ## Images
 
@@ -84,6 +85,9 @@ Stable Diffusion is a deep learning, text-to-image model released in 2022 based 
 
 [https://github.com/Acly/krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion) This is a plugin to use generative AI in image painting and editing workflows from within Krita. [https://www.youtube.com/watch?v=I17axF\_\_v3I](https://www.youtube.com/watch?v=I17axF__v3I) (ru)
 
+Krea https://www.krea.ai/  Krea is a real-time AI image generator and editor built for designers to create, remix, and iterate visually.
+
+https://www.watermarkremover.io/ # FREE AI Online Watermark Remover.  Remove watermarks in seconds using an AI watermark remover while preserving the image quality to elevate your visuals.
 ### References
 
 [https://www.youtube.com/watch?v=SE4IotjLWzc](https://www.youtube.com/watch?v=SE4IotjLWzc) (ru) How to make hand-drawn illustrations in a neural network, create and color a comic in a single style!
@@ -101,11 +105,59 @@ Stable Diffusion is a deep learning, text-to-image model released in 2022 based 
 [https://colorize.cc/](https://colorize.cc/) Colorize is a Russian service that automatically colors and restores old photos. The functionality is very simple, but Colorize does its job well. The tool is paid, but it does not work by subscription - you pay for a certain number of photos.
 
 ## Music
+### SUNO
+
+https://suno.com/home  Create a country song about my friend Jess being lat.  Start with a simple prompt or dive into our pro editing tools, your next track is just a step away. https://www.youtube.com/watch?v=TyjLwWeJ5Pk (ru) How to Create a Song Using the SUNO Neural Network
+
+Help 
+https://sunoaiwiki.com/ 
+https://www.youtube.com/@vocalplus_ru (ru) https://www.youtube.com/@SeTkaProjectMusic (ru) https://www.youtube.com/@ulavi-singer (ru) https://www.youtube.com/@alexcherevkovmusic (ru) 
+
+
+### Other
+
+https://audioaidynamics.com/genre-finder  Find Genre of music  
+Music Genre Finder is an advanced AI-driven tool that identifies and classifies the music genre of any song from audio file or YouTube link in real time. By analyzing over 400 genres and subgenres, the tool provides detailed insights into the dominant genres throughout the entire track. The analysis is broken down per second, offering a comprehensive overview of the musical styles present in the song. Analyzing every second of the audio, it provides detailed insights about the most dominant genre in a given second accompanied with subgenres that AI algorithm recognizes. Top 5 Genres list represents the most dominant genre of the song, extracting and calculating the whole audio data from beginning to end to finalize the main music genre of a song. Find the right music keywords and song description with AI Descriptive Text Generator feature. From audio files to text format providing short song summary, compelling genre explanation and finding the right song genre keywords
 
 [https://www.lalal.ai/](https://www.lalal.ai/) Extract vocal, accompaniment and various instruments from any audio and video
 
 [https://mubert.com/](https://mubert.com/) Human and AI Music Generator For your video content, podcasts and apps
 
+
+https://brev.ai/ Create Your Music
+With Brev AI Music Generator Free Online
+Transform your ideas into professional-quality, royalty-free music with our free online AI music generator.
+
+https://www.producer.ai/login?from-riffusion=true  Riffusion is now Producer.ai
+## Voice 
+
+https://elevenlabs.io/ The most realistic voice AI platform
+AI voice models and products powering millions of developers, creators, and enterprises. From low‑latency conversational agents to the leading AI voice generator for voiceovers and audiobooks.
+
 ## Video
 
+https://www.youtube.com/watch?v=SZB4W9SDx9M   
+Вам Больше Не Придётся МОНТИРОВАТЬ! Проверил ИИ Агента в DaVinci
+
+https://www.youtube.com/watch?v=YWRwlfcW_qc # Видео в нейросетях БЕСПЛАТНО | MiniMax H3 на 8GB VRAM! FreeVideo: установка и тест
+
 [https://klingai.com/](https://klingai.com/)
+
+https://www.heygen.com/ AI Video Generator: Create Talking Videos with AI.  Fast, simple, and incredibly powerful. Start with a text, image, or audio clip. Then, our AI video generator creates the entire video for you, complete with voiceovers, translations, and styles that match your brand. 
+Prise: ~ 100$/100 min 
+
+https://runwayml.com/  Runway is a global AI research and technology company working with leading organizations across entertainment, media, advertising, gaming, science and product development. We build foundational AI research models and tools to create multimodal simulators of the world. https://runwayml.com/pricing 
+
+https://www.genspark.ai/clip_genius 
+
+https://doitong.com/  The AI Content Fabric Building the Future of Media, Node by Node. Orchestrate 30+ AI models in one visual interface. From simple generations to complex automated pipelines. https://www.youtube.com/watch?v=00Euna29SXY (ru)  
+Doitong is an AI video maker that creates short-form content for TikTok, Instagram Reels, and YouTube Shorts. It converts text into animated clips, transforms static images into dynamic videos, and generates lifelike voiceovers in 32 languages to help content creators, marketers, and educators produce professional social media videos without editing skills.
+
+https://www.youtube.com/watch?v=dNfhebs-byI # Монтаж никогда не будет прежним. Как создавать любые 2D видео в Gemini БЕСПЛАТНО 🔥Показываю, как создавать бесплатные 2D-анимации, интерфейсы и футажи любой длительности с помощью нейросети Gemini и сервиса VidTSX без навыков монтажа и программирования.
+
+https://www.youtube.com/watch?v=_xSGo7cEyEs # Как я делаю ДЛИННЫЕ видео в Grok за 0₽? [ГАЙД 2026]
+
+https://pika.art/ Pika is the AI creative platform you’ve been waiting for. Comprehensive. Simple. With outputs that meet your standards.
+### Remotion 
+https://www.remotion.dev/ # Make videos programmatically.  Create real MP4 videos with React.  
+Parametrize content, render server-side and build applications.

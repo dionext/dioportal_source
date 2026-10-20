@@ -46,3 +46,9 @@ Admin GUI [https://www.pgadmin.org/](https://www.pgadmin.org/)
 Admin GUI
 
 [https://www.heidisql.com/](https://www.heidisql.com/) HeidiSQL is free software for people who work with databases, and aims to be intuitive to use. "Heidi" lets you connect to a variety of databases, like MariaDB, MySQL, Microsoft SQL, PostgreSQL, SQLite, Interbase and Firebird. Once you are connected, you can edit data and structures in these databases. Invented in 2002 by Ansgar, HeidiSQL is still a popular tool for MariaDB and MySQL, and actively maintained
+
+https://www.youtube.com/watch?v=TgT7fjyzZzY (ru) Postgres vs. MySQL: What Decides the Choice of Database | Petr Zaitsev  https://www.percona.com/mysql/software 
+
+## SQLite
+https://en.wikipedia.org/wiki/SQLite  SQLite (/ˌɛsˌkjuːˌɛlˈaɪt/ "S-Q-L-ite", /ˈsiːkwəˌlaɪt/ "sequel-ite") is a free and open-source relational database engine written in the C programming language. It is not a standalone app; rather, it is a library that software developers embed in their apps. As such, it belongs to the family of embedded databases. It is the most widely deployed database engine, as it is used by several of the top web browsers, operating systems, mobile phones, and other embedded systems
+https://sqlite.org/ 

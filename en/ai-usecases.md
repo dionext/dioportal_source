@@ -25,6 +25,19 @@ See [Using for Media (Arts, Images, Video, Design, etc.)](ai-using-for-media)
 
 [https://www.youtube.com/watch?v=9KKnNh89AGU\&t=98s](https://www.youtube.com/watch?v=9KKnNh89AGU&t=98s) Build a LOCAL AI Web Search Assistant with Ollama
 
+https://calmai.net/ Summarize & Chat for ChatGPT™
+Your AI-powered browser extension that helps you generate summaries and insights from any text.
+
+https://downsub.com/ DownSub is a FREE web application that can download subtitles directly from Youtube, VIU, Viki, Vlive and more. We supports downloading all subtitles/captions formats such as: SRT, TXT, VTT.  
+DownSub doesn't force our user to download or install any type of extensions or third party software. We provide an online method to download subtitles by just entering the URL of the video and clicking Download.
+
+ Perplexica  https://github.com/ItzCrazyKns/Perplexica Perplexica is an open-source AI-powered searching tool or an AI-powered search engine that goes deep into the internet to find answers. Inspired by Perplexity AI, it's an open-source option that not just searches the web but understands your questions. It uses advanced machine learning algorithms like similarity searching and embeddings to refine results and provides clear answers with sources cited. 
+Using SearxNG to stay current and fully open source, Perplexica ensures you always get the most up-to-date information without compromising your privacy.  https://www.youtube.com/watch?v=TPEl8AYwFA8 (ru)
+
+### Writing 
+
+https://www.youtube.com/watch?v=5wDY0KXGVrM  Заменит ли ИИ писателя? Что могут нейросети, а что не умеют? 
+
 ### Video Summarizer
 
 [https://videosummarize.ai/](https://videosummarize.ai/)
@@ -32,6 +45,12 @@ See [Using for Media (Arts, Images, Video, Design, etc.)](ai-using-for-media)
 [https://play.google.com/store/apps/details?id=com.emote.youtube\_summarizer\&hl=en](https://play.google.com/store/apps/details?id=com.emote.youtube_summarizer&hl=en)
 
 VideoSummarizer currently works best with YouTube videos that have subtitles in them. But we're working hard on making it work with all kinds of videos.
+
+### Firecrawl
+https://www.firecrawl.dev/
+Firecrawl is an AI-powered web crawler and web data infrastructure platform developed by Mendable.ai, designed to convert websites into structured data for AI applications. Founded in 2022 by Caleb Peffer, Eric Ciarla, and Nicolas Silberstein Camara, this San Francisco-based platform offers an open-source web crawler and a commercial API service. It provides content in formats like markdown or JSON, handles dynamic web content, and features AI-driven data extraction via natural language prompts or JSON schemas.
+
+Firecrawl — это специализированный API-сервис и open-source инструмент, преобразующий любые веб-сайты в чистые, структурированные данные (Markdown или JSON), готовые для использования в LLM (больших языковых моделях) и RAG-системах. Он автоматически обходит сайты, преодолевает защиты от ботов, обрабатывает динамический контент (JS) и PDF-файлы, упрощая сбор данных. 
 
 ## Using for Language Translations and Learning
 
@@ -42,7 +61,44 @@ VideoSummarizer currently works best with YouTube videos that have subtitles in 
 * Monthly 1 month with SmallTalk2Me costs as 1 hour with a tutor. $30/month
 * Annual 40% cheaper A full year with SmallTalk2Me is an economical alternative to frequent tutoring. $18/month
 
+https://ankiweb.net/shared/info/547821970 Plugin for Anki 
+https://anki-decks.com/ The #1 AI Flashcards Maker for Students. Generate Anki Flashcards Fast - from Any File or Text. Convert your Notes to Anki Flashcards with AI - in seconds.
+
 ## Using for Speech-to-Text and Text-to-Speech
+
+🖐🏼 Handy (https://handy.computer/)
+Это бесплатный open-source сервис для диктовки текста в любое приложение на компе. Зажал горячую клавишу, сказал текст, он сразу появился в Notion, телеге, браузере, Google Docs — в любом месте куда можно вставить текст. Работает локально на базе Whisper, поэтому фбр меня не прослушивает)   https://github.com/cjpais/Handy 
+
+Recomended model: Parakeet V3
+
+- нет возможности транскрибировать файлы  
+
+
+LocalText2Voice
+https://www.youtube.com/watch?v=mOhEeRcX5k0  # LocalText2Voice - создаем аудио-книги и подкасты через ИИ. Бесплатно, локально. Установка + Обзор
+LocalText2Voice — бесплатное приложения с открытым исходным кодом для Windows для создания длинных аудиокниг и подкастов. Приложение управляет всем процессом: разбивает большие тексты на сегменты, назначает разные голоса персонажам, позволяет прослушивать и перегенерировать отдельные фрагменты, добавлять фоновую музыку, выполнять сведение и экспортировать готовый результат.
+
+⏺HypeScribe (https://www.hypescribe.com/ru)
+Может вытаскивать текст по ссылкам из любой соцсети: YouTube, VK, Rutube, запретграм и других. Плюс умеет подключаться к Zoom, Google Meet и Teams, делать саммари и отвечать на вопросы по транскрипту.
+
+🔍 NotebookLM (https://notebooklm.google.com/)
+Делает очень точные саммари из Youtube видео и любых файлов, но не может вытягивать текст из других соцсетей. Зато, можно задавать нейронки любые вопросы по теме видео а потом еще сделать инфографику, презу, чек-лист, подкаст на очень хорошем уровне на русском.
+
+💻 MacWhisper (https://www.macwhisper.net/)
+Тоже локальный сервис с бесплатным функционалом, который я использую для расшифровки больших видео и аудио файлов на компе. Например, записал видео на 50 минут — закинул — получил подробный и точный транскрипт. 
+
+
+https://transcribetext.com/  Lightning-fast AI transcription service for all your audio and video needs.
+
+https://withaqua.com/  Windows Desktop application - User friendly interface, 1000 word free   10$/month - unlimited words
+
+https://github.com/mkiol/dsnote Speech Note -  Linux desktop and Sailfish OS app for note taking, reading and translating with offline Speech to Text, Text to Speech and Machine Translation
+
+https://www.limitless.ai/ Go beyond your mind’s limitations. Personalized AI powered by what you’ve seen, said, and heard.
+https://krisp.ai/  AI Meeting Assistant with #1 Noise Cancellation Smarter meetings with ranscripts, summaries, and action items — bot-free recording, noise cancellation, and natural accents. 
+https://www.granola.ai/ The AI notepad for people in back-to-back meetings. Granola takes your raw meeting notes and makes them awesome
+
+https://elevenlabs.io/ AI voice models and products powering millions of developers, creators, and enterprises. From low‑latency conversational agents to the leading AI voice generator for voiceovers and audiobooks. https://elevenlabs.io/text-to-speech
 
 Google Docs Voice Input [https://support.google.com/docs/answer/4492226?hl=en](https://support.google.com/docs/answer/4492226?hl=en)
 
@@ -99,6 +155,10 @@ https://www.youtube.com/watch?v=\_diVy9VdT5s{#id47} How to Build Free Voice AI A
 
 [https://silero.ai/](https://silero.ai/) (ru)
 
+https://wisprflow.ai (desktop) (free - 2,000 words per week, $12/mo Unlimited words per week)  Think it,  
+‍speak it,   send it Use your voice to write 3x faster in every application: AI commands, auto-edits, 100+ languages
+
+Talon Voice https://talonvoice.com Powerful hands-free input Voice Control talk to your computer Noise Control click with a back-beat Eye Tracking mouse where you look Python Scripts customize everything
 ### Whisper AI
 
 #### Whisper ASR Webservice
@@ -121,6 +181,12 @@ docker run -d -p 9000:9000 -e ASR\_MODEL=base -e ASR\_ENGINE=openai\_whisper one
 
 2b9aedf1fd80 keen\_wiles 0.29% 801.7MiB / 3.82GiB 20.49%
 
+* base очень маленькая, но дает плохой результат  
+* medium больше, но не дает идеальный результат 
+* large-v3-turbo дает существенно лучший результат распознавания , чем medium, хотя не намного её больше	https://huggingface.co/openai/whisper-large-v3-turbo   
+* large - не проверял, но судя по сайт, она сильно больше размером
+
+
 #### WhisperX {\#whisperx}
 
 [WhisperX](https://github.com/m-bain/whisperX) stands out as the most versatile and feature-rich Whisper variation. Here's why it's our top pick:
@@ -139,13 +205,25 @@ docker run -d -p 9000:9000 -e ASR\_MODEL=base -e ASR\_ENGINE=openai\_whisper one
 
 [https://www.youtube.com/watch?v=lCh4FDInVtY](https://www.youtube.com/watch?v=lCh4FDInVtY) (ru) Superwhisper DEMO. AI Mindset \[lab\]
 
+#### WhisperDesktop
+
+https://github.com/Const-me/Whisper 
+Не удалось заставить работать (возможно из-за отсутствия GPU)
 #### Other Ports
 
 [https://github.com/Const-me/Whisper](https://github.com/Const-me/Whisper) This project is a Windows port of the whisper.cpp implementation. + models [https://huggingface.co/ggerganov/whisper.cpp](https://huggingface.co/ggerganov/whisper.cpp)
 
 [https://www.youtube.com/watch?v=rLeMPakTwxE](https://www.youtube.com/watch?v=rLeMPakTwxE) Faster Whisper? Whisper X? Insanely Fast Whisper? Piotr recommends Whisper2ST + ctranslate2
 
+https://github.com/chidiwilliams/buzz  Transcribe and translate audio offline on your personal computer. Powered by OpenAI's [Whisper](https://github.com/openai/whisper). https://www.youtube.com/watch?v=F91yera6swo 
+
+#### Plugins 
+ For obsidian see [[documentation]]
+ For VS Code [[ide-visual-studio-code]]
+
 ## Using for Internet Content Generation
+
+https://www.youtube.com/watch?v=kS1qus2i8mo # Claude Design — полный обзор и гайд. Заменит ли ИИ дизайнеров? https://claude.ai/design 
 
 [https://websim.ai/](https://websim.ai/) sites constructor [https://www.youtube.com/watch?v=ydWT4nqgJcY](https://www.youtube.com/watch?v=ydWT4nqgJcY)
 
@@ -163,7 +241,11 @@ docker run -d -p 9000:9000 -e ASR\_MODEL=base -e ASR\_ENGINE=openai\_whisper one
 
 It is recommended that Claude is better suited for generating simple articles, and Gemini is better suited for generating complex projects based on prompts. [https://www.rush-agency.ru/blog/kak-pisat-kachestvennye-stati-ispolzuya-ii/](https://www.rush-agency.ru/blog/kak-pisat-kachestvennye-stati-ispolzuya-ii/) (ru)
 
+https://www.youtube.com/watch?v=z7zU_tU3m-g (ru) Revolution in the world of content creation. How neural networks are changing the rules of the game?   https://genefy.ru/ 
+
 ## Using for Science
+
+https://consensus.app/ Consensus is the AI-powered academic search engine Search & analyze200M+ peerreviewed research papers
 
 [https://www.youtube.com/watch?v=CMizH-0uJRw](https://www.youtube.com/watch?v=CMizH-0uJRw) AI mindset \[knowledge\]: Итоги 8 недель лаборатории управления знаниям с Obsidian и AI рекомендуют How to Take Smart Notes (Sönke Ahrens)
 
@@ -195,6 +277,48 @@ What is Lazy? Context switching is poison for productivity. When you get that br
 
 [https://www.youtube.com/watch?v=hRCiuycpAIU](https://www.youtube.com/watch?v=hRCiuycpAIU) How to Connect Zotero and Obsidian for the Ultimate PhD Workflow
 
+### Glasp.co
+Glasp.co  https://glasp.co/ Highlight the Web &
+build your AI memory
+Highlight anything on any page or PDF, keep what matters in one place, and turn it into an AI that thinks with your own ideas.
+
+Free $0 No credit card required
+- Unlimited Public Highlights
+- Basic YouTube Summaries (3 summaries/day)
+- Advanced YouTube Summaries (3 per 7 days)
+- YouTube Channel Tracking (1 channel, 3 videos/channel)
+- PDF Uploads & Summaries (30 files)
+- PDF Chat (20 messages/month)
+- AI Chat on Pages & Videos (20 credits/month, Fast model)
+- Audio File Transcription & Summaries (30 minutes/month)
+- Daily Auto-Sync/Export to Notion
+
+Pro $12.50 USD/month $180/year $150/year (billed annually)
+- Unlimited Private Highlights
+- Unlimited Basic YouTube Summaries
+- Advanced YouTube Summaries (1,000 summaries/month)
+- YouTube Channel Tracking (5 channels, 30 videos/channel)
+- PDF Uploads & Summaries (100 files)
+- PDF Chat (500 messages/month)
+- AI Chat on Pages & Videos (500 credits/month, all models)
+- Audio File Transcription & Summaries (300 minutes/month)
+- Daily Auto-Sync/Export to Notion
+
+### ️Napkin.ai
+https://www.napkin.ai/
+Napkin turns your text into visuals so sharing your ideas is quick and effective.
+
+Free $0
+- 500 AI credits per week
+- Unlimited visuals editing
+- Unlimited file import (PPT, DOC, PDF, HTML, MD)
+- Unlimited PNG & PDF export
+- Built-in styles and fonts
+- Standard icons
+- Napkin branding on visuals
+
+картинки можно экспортировать, но на бесплатной тарифе с лого 
+
 ## Using for Everyday Life
 
 [https://www.ray-ban.com](https://www.ray-ban.com) (device) Ready for the next generation of smart **glasses**? The Ray-Ban Meta collection combines the latest in wearable tech with authentic Ray-Ban design, to keep you connected wherever you go. The Ray-Ban Meta smart glasses take all the features of Ray-Ban Stories and elevate them to meet what users really want.
@@ -215,18 +339,49 @@ Earth Copilot [https://blogs.microsoft.com/blog/2024/11/14/from-questions-to-dis
 
 ## AI Workflow and AI Agents
 
+### n8n
+
+[https://n8n.io/](https://n8n.io/) Secure, AI-native workflow automation (Price from $20 month) 
+
+https://docs.n8n.io/hosting/ self hosting documentation 
+
+[https://www.youtube.com/watch?v=jdyO1l8Hokk](https://www.youtube.com/watch?v=jdyO1l8Hokk) Smart AI Blog Writing System: Fully Automated Content with n8n
+
+https://www.youtube.com/watch?v=JT9H66_paII (ru) 
+https://www.youtube.com/watch?v=guYb9v_E_yc  https://www.youtube.com/watch?v=svN3_OJJWwQ (ru) Google connection 
+https://www.youtube.com/watch?v=t4c9YxeVwyU  Perplexity + n8n
+
+https://www.youtube.com/@tyessenov/videos (ru)
+
+https://www.youtube.com/@vibe_business (ru)
+### other
+
+Google Opal https://developers.googleblog.com/en/introducing-opal/ 
+
 [https://github.com/langgenius/dify](https://github.com/langgenius/dify) Dify is an open-source LLM app development platform. Its intuitive interface combines agentic AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.
 
 [https://agpt.co/](https://agpt.co/) Empower your digital tasks with AutoGPT Welcome to AutoGPT, where AI amplifies human potential. Our platform empowers you to create intelligent assistants that streamline your digital workflow, enabling you to dedicate more time to innovative and impactful pursuits.
 
 [http://babyagi.org/](http://babyagi.org/) This newest BabyAGI is an experimental framework for a self-building autonomous agent. Earlier efforts to expand BabyAGI have made it clear that the optimal way to build a general autonomous agent is to build the simplest thing that can build itself.
 
-[https://n8n.io/](https://n8n.io/) Secure, AI-native workflow automation (Price from $20 month) [https://www.youtube.com/watch?v=jdyO1l8Hokk](https://www.youtube.com/watch?v=jdyO1l8Hokk) Smart AI Blog Writing System: Fully Automated Content with n8n
 
 [https://www.make.com/](https://www.make.com/) Automation at scale - on one visual platform Automate workflows, integrate apps, and power innovation - on Make's visually intuitive no-code development platform.
 
 [https://www.youtube.com/watch?v=L4uST6vOTac](https://www.youtube.com/watch?v=L4uST6vOTac) Make vs n8n-The Wrong Choice Will Cost You ( [https://www.youtube.com/watch?v=AsstdtiX8XU](https://www.youtube.com/watch?v=AsstdtiX8XU) (ru))
 
+## Using fo HR 
+https://work.mercor.com/apply/resume Mercor helps you get considered by hundreds of companies with one application.
+Mercor is a platform that connects global talent with US companies. Specifically, our AI vetting process identifies exceptional individuals from around the world and matches them with the best opportunities.
+
+## Using for medicine 
+
+https://consensus.app/ Consensus is the AI-powered academic search engine Search & analyze200M+ peerreviewed research papers
+
+https://deepmind.google.com/science/alphagenome/ This API provides access to AlphaGenome, Google DeepMind's unifying model for deciphering the regulatory code within DNA sequences. AlphaGenome offers multimodal predictions, encompassing diverse functional outputs including gene expression, splicing patterns, chromatin features, and contact maps (see diagram below). The model analyzes up to 1 million base pairs of DNA sequence and can deliver predictions at single base-pair resolution for most modalities. AlphaGenome achieves state-of-the-art performance across a range of genomic prediction benchmarks, including diverse variant effect prediction tasks.
+
+https://storage.googleapis.com/deepmind-media/papers/alphagenome.pdf 
+
+https://www.youtube.com/watch?v=ucELhG0kOkw (ru) Founder OS #23 – от стопки анализов к AI-дашборду: как построить персональную систему здоровья с LLM
 ## Other Uses
 
 [https://www.youtube.com/watch?v=slfC9um1qdk](https://www.youtube.com/watch?v=slfC9um1qdk) RAG. Делаем вопросно-ответную систему с поиском по базе видеороликов [https://github.com/trashchenkov/gigachat\_tutorials/blob/main/RAG\_по\_видеороликам.ipynb](https://github.com/trashchenkov/gigachat_tutorials/blob/main/RAG_по_видеороликам.ipynb) все его репозитории [https://github.com/trashchenkov/gigachat\_tutorials](https://github.com/trashchenkov/gigachat_tutorials) есть пример и для статей

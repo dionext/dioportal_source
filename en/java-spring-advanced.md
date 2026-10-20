@@ -8,7 +8,8 @@ aliases:
   - "java-spring-advanced"
 ---
 
-## Spring: Advanced
+
+## Spring: Advanced
 
 ## I18n
 

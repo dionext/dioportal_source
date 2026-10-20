@@ -8,7 +8,8 @@ aliases:
   - "virtualization"
 ---
 
-# Virtualization
+
+# Virtualization
 
 ## Docker
 
@@ -63,6 +64,66 @@ Many options are available for the created virtual machines: the hypervisor used
 
 Installation and system requirements [https://pve.proxmox.com/pve-docs/chapter-pve-installation.html](https://pve.proxmox.com/pve-docs/chapter-pve-installation.html)
 
+
+В Proxmox VE выбор между **Create VM** (виртуальная машина) и **Create CT** (контейнер LXC) сводится к компромиссу между изоляцией и производительностью. ==VM использует полноценный гипервизор, а CT делит ядро с хостом, работая как изолированная среда ОС== Сообщество пользователей [Proxmox](https://www.proxmox.com/en/products/proxmox-virtual-environment/features) считает, что **CT** отлично подходит для запуска изолированных служб, баз данных или веб-серверов в Linux ради экономии ресурсов. **VM** нужно выбирать, если требуется строгая безопасность, запуск Windows или поддержка нескольких ядер ОС
+
+- **local** (`/var/lib/vz`): файловая система ext4 или xfs. Здесь хранят вспомогательные данные: ISO-образы дистрибутивов, конфигурационные файлы, резервные копии (dump) и шаблоны контейнеров (CT Templates).
+
+- **local-lvm** (thin pool): блочное устройство. Отведено специально под диски виртуальных машин (qcow2/raw) и диски контейнеров. Работает быстрее благодаря отсутствию накладных расходов файловой системы на каждый файл диска, а также поддерживает динамическое выделение места и создание снимков (snapshots)
+
+https://github.com/GethosTheWalrus/proxmox-mcp MCP
+
+### Скрипты 
+https://community-scripts.org
+https://forum.samohosting.ru/  https://forum.samohosting.ru/c/pve/5  https://samohosting.ru/
+https://forum.samohosting.ru/t/proxmox-ve-community-scripts-aktualnyj-fork-helper-scripts-by-tteck/14
+
+![[Pasted image 20260726002845.png]]
+Proxmox 9.2.2
+POST script https://community-scripts.org/scripts/post-pve-install 
+
+https://community-scripts.org/scripts/docker  
+docker ps
+docker logs ID 
+https://192.168.1.116:9443/
+
+https://community-scripts.org/scripts/ubuntu
+
+https://community-scripts.org/scripts/openwebui 
+(включает ollama, но она почему то не установилась. Пришлось настроить подключение к другому контейнеру )
+http://192.168.1.152:8080/
+
+https://community-scripts.org/scripts/ollama
+http://192.168.1.86:11434/v1
+
+https://community-scripts.org/scripts/hermesagent
+	https://adityarajsingh.com/how-to-install-hermes-agent-on-proxmox/
+
+
+```
+pct enter ID 
+
+passwd
+
+passwd hermes 
+
+
+su -
+nano /etc/ssh/sshd_config
+
+PermitRootLogin yes
+
+Save and exit the file (In nano, press `CTRL + O`, `Enter` to save, then `CTRL + X` to exit).
+
+systemctl restart ssh
+
+ssh -fNL 9119:localhost:9119 root@<lan-ip>
+
+http://localhost:9119
+
+```
+
+## Характеристики
 ## Other Virtualization Platforms
 
 **OpenVZ**(Open Virtuozzo) is an operating-system-level virtualization technology for Linux. It allows a physical server to run multiple isolated operating system instances, called containers, virtual private servers (VPSs), or virtual environments (VEs). OpenVZ is similar to Solaris Containers and LXC

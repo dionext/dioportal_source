@@ -8,7 +8,8 @@ aliases:
   - "java-tips"
 ---
 
-# Java tips
+
+# Java tips
 
 ## Short blocks of code
 

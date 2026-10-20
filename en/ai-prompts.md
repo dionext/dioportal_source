@@ -8,7 +8,8 @@ aliases:
   - "ai-prompts"
 ---
 
-# AI. Prompts
+
+# AI. Prompts
 
 ### Overview
 
@@ -473,4 +474,7 @@ A simple sketch illustration of a sloth freelancer sitting at a small wooden des
 [https://www.youtube.com/watch?v=ntACspNRNXk](https://www.youtube.com/watch?v=ntACspNRNXk) (ru)
 
 [https://www.youtube.com/watch?v=rJVHjE8t1qs](https://www.youtube.com/watch?v=rJVHjE8t1qs) (ru)
-\*
+
+https://www.youtube.com/watch?v=cMR2c3vQRAc (ru) My DISCOVERIES! Spent $600 on 4000 NEWEST GPT research on Prompt Engineering
+
+https://docs.google.com/document/d/1S4853DIpkdVp1WCcnpxKjBYRVZwf6d1SoVTHZjQVauI/edit?tab=t.o4rf3cz2pacf#heading=h.7zqmwfn85u1b (ru)  The Big SEO Prompting Lesson for 2025 https://www.youtube.com/watch?v=VlaH-91Z880 

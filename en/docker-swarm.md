@@ -8,7 +8,8 @@ aliases:
   - "docker-swarm"
 ---
 
-# Docker Swarm
+
+# Docker Swarm
 
 ## Overview
 
