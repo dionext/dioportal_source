@@ -196,6 +196,42 @@ Plugins for Visual Studio Code
 
 The Easiest Way to Connect Your Obsidian Vault with Github [https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github](https://linked-blog-starter.vercel.app/connect-obsidian-vault-with-github)
 
+#### Git 
+Simple 
+
+```
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+.obsidian-git-data
+
+.trash/
+.DS_Store
+Thumbs.db
+```
+
+
+alt
+```
+.obsidian/*
+
+# Uncomment to sync specific configurations:
+# !.obsidian/app.json
+# !.obsidian/appearance.json
+# !.obsidian/community-plugins.json
+# !.obsidian/core-plugins.json
+# !.obsidian/workspace.json
+
+# System files
+.trash/
+.DS_Store
+```
+
+
+
+
+
 ### References 
 https://www.youtube.com/watch?v=6R3RF2CoYv8 # 33 Obsidian techniques I can no longer work without
 

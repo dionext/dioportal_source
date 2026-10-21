@@ -80,7 +80,7 @@ We have collected a number of notes on full stack programming development. Our c
 * Maintenance. Service. Support{#maintenance}
   * [Logging](devops-logging)
   * [Monitoring](devops-monitoring)
-  * [Security](security)
+  * [Security](security.md)
 * AI (Artificial Intelligence)
   * [Glossary](ai-glossary)
   * [Prompts](ai-prompts)
